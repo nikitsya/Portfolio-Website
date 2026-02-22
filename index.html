@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nika Portfolio</title>
+    <meta name="description" content="Simple portfolio with soft yellow and pink style." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">Nika Portfolio</a>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home-section">
+        <p class="eyebrow">Creative portfolio</p>
+        <h1>My ideas, projects, and visuals in one simple space.</h1>
+        <p class="home-copy">
+          This is your clean starter page. You can keep only the projects you like and update details
+          anytime.
+        </p>
+        <a class="primary-link" href="#projects">Open projects</a>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Click a card to open details.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <p class="project-type">Brand Identity</p>
+            <h3>Sunset Atelier</h3>
+            <button class="open-project" type="button" data-project="sunset">Open project</button>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Landing Page</p>
+            <h3>Soft Motion</h3>
+            <button class="open-project" type="button" data-project="softmotion">Open project</button>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Social Campaign</p>
+            <h3>Golden Hour</h3>
+            <button class="open-project" type="button" data-project="goldenhour">Open project</button>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Creative Concept</p>
+            <h3>Pink Signals</h3>
+            <button class="open-project" type="button" data-project="pinksignals">Open project</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-view" id="project-view" aria-live="polite">
+        <p class="project-view-label">Selected project</p>
+        <h2 id="project-title">Choose a project from the list</h2>
+        <p id="project-meta" class="project-meta"></p>
+        <p id="project-description" class="project-description">
+          Project details will appear here after you open one of your cards.
+        </p>
+        <ul id="project-points" class="project-points"></ul>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Replace with your real links and your domain email.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://t.me" target="_blank" rel="noreferrer">Telegram</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Nika Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
