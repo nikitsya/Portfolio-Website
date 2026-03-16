@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <script>
-      (function () {
-        const { pathname, search, hash } = window.location;
-        if (pathname.length > 1 && pathname.endsWith("/")) {
-          window.history.replaceState(null, "", pathname.replace(/\/+$/, "") + search + hash);
-        }
-      })();
+        (function () {
+            const {pathname, search, hash} = window.location;
+            if (pathname.length > 1 && pathname.endsWith("/")) {
+                window.history.replaceState(null, "", pathname.replace(/\/+$/, "") + search + hash);
+            }
+        })();
     </script>
     <title>Nikita Smiichyk - Contact</title>
-    <meta name="description" content="Contact page for Nikita Smiichyk portfolio." />
-    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
-    <link rel="apple-touch-icon" href="../favicon.svg" />
-    <link rel="stylesheet" href="../styles.css" />
-  </head>
-  <body class="minimal-home">
-    <main class="minimal-layout">
-      <section class="minimal-section">
+    <meta content="Contact page for Nikita Smiichyk portfolio." name="description"/>
+    <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+    <link href="../favicon.svg" rel="apple-touch-icon"/>
+    <link href="../styles.css" rel="stylesheet"/>
+</head>
+<body class="minimal-home">
+<main class="minimal-layout">
+    <section class="minimal-section">
         <h1>Contact</h1>
         <p class="minimal-lead">Reach me via:</p>
         <p><a href="mailto:nikitasmiichyk@gmail.com">nikitasmiichyk@gmail.com</a></p>
-        <p><a href="https://github.com/nikitsya" target="_blank" rel="noreferrer">GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/nikitsya" target="_blank" rel="noreferrer">LinkedIn</a></p>
-      </section>
-    </main>
+        <p><a href="https://github.com/nikitsya" rel="noreferrer" target="_blank">GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/nikitsya" rel="noreferrer" target="_blank">LinkedIn</a></p>
+    </section>
+</main>
 
-    <aside class="minimal-nav" aria-label="Site navigation">
-      <p class="minimal-name">Nikita Smiichyk</p>
-      <a href="..">About</a>
-      <a href="../tech-stack">Tech Stack</a>
-      <a href="../projects">Projects</a>
-      <a href="../contact" aria-current="page">Contact</a>
-    </aside>
+<aside aria-label="Site navigation" class="minimal-nav">
+    <p class="minimal-name">Nikita Smiichyk</p>
+    <a href="..">About</a>
+    <a href="../tech-stack">Tech Stack</a>
+    <a href="../projects">Projects</a>
+    <a aria-current="page" href="../contact">Contact</a>
+</aside>
 
-    <footer class="minimal-footer">
-      <p>© <span id="year"></span> Nikita Smiichyk</p>
-    </footer>
+<footer class="minimal-footer">
+    <p>© <span id="year"></span> Nikita Smiichyk</p>
+</footer>
 
-    <script>
-      const yearNode = document.getElementById("year");
-      if (yearNode) {
+<script>
+    const yearNode = document.getElementById("year");
+    if (yearNode) {
         yearNode.textContent = String(new Date().getFullYear());
-      }
-    </script>
-  </body>
+    }
+</script>
+</body>
 </html>
