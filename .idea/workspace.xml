@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Improve tech stack page structure and readability" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Switch tech stack wording to British English">
+      <change afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +57,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/cv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +84,7 @@
       <workItem from="1771951700211" duration="2865000" />
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
-      <workItem from="1774731530631" duration="2645000" />
+      <workItem from="1774731530631" duration="6094000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -283,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774733918074</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Switch tech stack wording to British English">
+      <option name="closed" value="true" />
+      <created>1774734208867</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1774734208867</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +320,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add pastel-styled timetable section with header navigation and responsive weekly table" />
     <MESSAGE value="Create separate editable timetable page with localStorage persistence and update navigation" />
     <MESSAGE value="Change timetable to hourly slots from 09:00 to 18:00 and update editable schedule logic" />
     <MESSAGE value="p.m., improve table readability, and align daily slots to 9 hourly columns" />
@@ -326,6 +344,7 @@
     <MESSAGE value="Update homepage hero copy and de-emphasize education" />
     <MESSAGE value="Style navigation links as square buttons" />
     <MESSAGE value="Improve tech stack page structure and readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve tech stack page structure and readability" />
+    <MESSAGE value="Switch tech stack wording to British English" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch tech stack wording to British English" />
   </component>
 </project>
