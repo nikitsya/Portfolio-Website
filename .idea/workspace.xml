@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Style navigation links as square buttons">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Improve tech stack page structure and readability" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +73,7 @@
       <workItem from="1771951700211" duration="2865000" />
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
-      <workItem from="1774731530631" duration="2218000" />
+      <workItem from="1774731530631" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -279,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774732601586</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Improve tech stack page structure and readability">
+      <option name="closed" value="true" />
+      <created>1774733918074</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774733918074</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +325,7 @@
     <MESSAGE value="reformat code" />
     <MESSAGE value="Update homepage hero copy and de-emphasize education" />
     <MESSAGE value="Style navigation links as square buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style navigation links as square buttons" />
+    <MESSAGE value="Improve tech stack page structure and readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve tech stack page structure and readability" />
   </component>
 </project>
