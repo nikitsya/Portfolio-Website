@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="set correct Tech Stack heading and remove duplicate title block">
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="reformat code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,8 @@
       <workItem from="1771877475294" duration="2644000" />
       <workItem from="1771951700211" duration="2865000" />
       <workItem from="1773694915227" duration="5101000" />
-      <workItem from="1773700658522" duration="56000" />
+      <workItem from="1773700658522" duration="230000" />
+      <workItem from="1774731530631" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -244,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773699629221</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add GitHub projects link and CI/CD note to Projects page">
+      <option name="closed" value="true" />
+      <created>1773700867993</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1773700867993</updated>
+    </task>
+    <task id="LOCAL-00023" summary="reformat code">
+      <option name="closed" value="true" />
+      <created>1773700883694</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1773700883694</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +301,8 @@
     <MESSAGE value="remove Backend Focus page and all related navigation links" />
     <MESSAGE value="add clickable DkIT course link to About education line" />
     <MESSAGE value="set correct Tech Stack heading and remove duplicate title block" />
-    <option name="LAST_COMMIT_MESSAGE" value="set correct Tech Stack heading and remove duplicate title block" />
+    <MESSAGE value="add GitHub projects link and CI/CD note to Projects page" />
+    <MESSAGE value="reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat code" />
   </component>
 </project>
