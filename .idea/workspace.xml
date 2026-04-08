@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Remove Supermarket Management System project from portfolio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +81,7 @@
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
       <workItem from="1774731530631" duration="7710000" />
+      <workItem from="1775685774225" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -331,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774741111243</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Remove Supermarket Management System project from portfolio">
+      <option name="closed" value="true" />
+      <created>1775685968611</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1775685968611</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add client-side password gate for site access across all pages" />
     <MESSAGE value="Add 404 redirect to home page for invalid URLs" />
     <MESSAGE value="Add site favicon and apple touch icon from logo image" />
     <MESSAGE value="rebuild portfolio as a minimal multi-page skeleton" />
@@ -374,6 +381,7 @@
     <MESSAGE value="Add project entries to the projects page" />
     <MESSAGE value="Match project separators to the tech stack layout" />
     <MESSAGE value="Reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat code" />
+    <MESSAGE value="Remove Supermarket Management System project from portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Supermarket Management System project from portfolio" />
   </component>
 </project>
