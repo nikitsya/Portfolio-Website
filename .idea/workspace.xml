@@ -34,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nikitsya/BigProjects/nikitsya&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/nikitsya/big-projects/nikitsya",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/cv" />
@@ -80,6 +80,7 @@
       <workItem from="1773700658522" duration="230000" />
       <workItem from="1774731530631" duration="7710000" />
       <workItem from="1775685774225" duration="1310000" />
+      <workItem from="1776371916937" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -345,7 +346,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775690995500</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update CV">
+      <option name="closed" value="true" />
+      <created>1776371932029</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1776371932029</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add screenshots section to README">
+      <option name="closed" value="true" />
+      <created>1776372064588</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1776372064588</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,8 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add site favicon and apple touch icon from logo image" />
-    <MESSAGE value="rebuild portfolio as a minimal multi-page skeleton" />
     <MESSAGE value="change logo size" />
     <MESSAGE value="set local master to track origin/master" />
     <MESSAGE value="switch site navigation to clean URLs without .html extensions" />
@@ -388,6 +403,8 @@
     <MESSAGE value="Reformat code" />
     <MESSAGE value="Remove Supermarket Management System project from portfolio" />
     <MESSAGE value="Update cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update cv" />
+    <MESSAGE value="Update CV" />
+    <MESSAGE value="Add screenshots section to README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add screenshots section to README" />
   </component>
 </project>
