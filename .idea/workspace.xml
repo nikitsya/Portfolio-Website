@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update book and page">
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add books catalogue and Prirodnaya Sekta page">
+      <change afterPath="$PROJECT_DIR$/book/assets/img/dom-bez-dverey-cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/assets/img/prirodnaya-sekta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/assets/pdf/dom-bez-dverey.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/assets/pdf/prirodnaya-sekta.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey-epub-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.epub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="25" />
+    <option name="cachedIndexableFilesCount" value="28" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -67,6 +76,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book/assets/img" />
+      <recent name="$PROJECT_DIR$/book/assets/pdf" />
+      <recent name="$PROJECT_DIR$/book/assets" />
       <recent name="$PROJECT_DIR$/book" />
       <recent name="$PROJECT_DIR$/assets/cv" />
     </key>
@@ -102,7 +114,10 @@
       <workItem from="1778706681499" duration="87000" />
       <workItem from="1778706827638" duration="43000" />
       <workItem from="1778707980714" duration="1032000" />
-      <workItem from="1778711640693" duration="303000" />
+      <workItem from="1778711640693" duration="509000" />
+      <workItem from="1778799937506" duration="15000" />
+      <workItem from="1778799955256" duration="3276000" />
+      <workItem from="1778804211920" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -424,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778711346516</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Change background">
+      <option name="closed" value="true" />
+      <created>1778712145451</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1778712145451</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make About navigation point to home and redirect /about/ to root" />
     <MESSAGE value="use non-trailing-slash internal URLs and normalize displayed route paths" />
     <MESSAGE value="update About section with personal bio and backend-focused summary" />
     <MESSAGE value="update About section with provided education and backend-focused profile text" />
@@ -467,6 +489,7 @@
     <MESSAGE value="Update book files" />
     <MESSAGE value="Add icons to the book page" />
     <MESSAGE value="Update book and page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update book and page" />
+    <MESSAGE value="Change background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change background" />
   </component>
 </project>
