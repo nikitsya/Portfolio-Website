@@ -13,34 +13,59 @@
 <main class="minimal-layout">
     <section class="minimal-section">
         <h1>Projects</h1>
-        <p class="minimal-lead">Selected backend and full-stack projects.</p>
+        <p class="minimal-lead">Selected backend, full-stack, and API-focused projects.</p>
 
         <div class="projects-list">
             <article class="project-entry">
-                <h3>Stripe-like Billing Platform</h3>
-                <p>Backend system for managing customers and subscription-like workflows. Designed with focus on clean
-                    architecture, data consistency, and scalability.</p>
-                <p><strong>Tech:</strong> Java, Spring Boot, PostgreSQL, Flyway</p>
-                <p><a href="https://github.com/nikitsya/Stripe-Like-Billing-Platform" rel="noreferrer" target="_blank">View
-                    on GitHub</a></p>
+                <h3>Billing Platform Demo</h3>
+                <p>Full-stack billing-focused application with a deployed frontend, Spring Boot backend API, and
+                    PostgreSQL database.</p>
+                <p>The project supports customer creation and retrieval through REST API endpoints. The frontend is
+                    deployed on a custom domain, the backend runs on Render, and the database is hosted on Neon
+                    PostgreSQL. Database schema changes are managed with Flyway, and database credentials are stored
+                    securely through environment variables.</p>
+                <p><strong>Tech:</strong> Java, Spring Boot, PostgreSQL, Flyway, REST API, Render, Neon, JavaScript</p>
+                <p><strong>Live Demo:</strong>
+                    <a href="https://billing.nikitsya.dev" rel="noreferrer" target="_blank">billing.nikitsya.dev</a>
+                </p>
+                <p><strong>Frontend Repo:</strong>
+                    <a href="https://github.com/nikitsya/Billing-Platform-Frontend" rel="noreferrer"
+                       target="_blank">GitHub frontend repository</a>
+                </p>
+                <p><strong>Backend Repo:</strong>
+                    <a href="https://github.com/nikitsya/Billing-Platform-API" rel="noreferrer"
+                       target="_blank">GitHub backend repository</a>
+                </p>
+                <p><strong>Backend API:</strong>
+                    <a href="https://billing-platform-api.onrender.com" rel="noreferrer"
+                       target="_blank">billing-platform-api.onrender.com</a>
+                </p>
             </article>
 
             <article class="project-entry">
-                <h3>Supermarket Store System (Client-Server)</h3>
-                <p>Multi-tier backend system with a custom JSON-based socket protocol. Includes multithreaded server
-                    handling concurrent client requests and DAO-based persistence.</p>
-                <p><strong>Tech:</strong> Java, JDBC, MySQL, JSON, Multithreading</p>
+                <h3>Supermarket Store System</h3>
+                <p>Java client-server application for managing supermarket departments, products, inventory data,
+                    pricing, and images.</p>
+                <p>The system exposes its operations through a structured JSON protocol over TCP, stores persistent data
+                    in MySQL, and handles multiple clients concurrently using a server-side thread pool. It includes
+                    DAO-based persistence, image upload and retrieval, metadata-only queries, structured success and
+                    error responses, and automated tests.</p>
+                <p><strong>Tech:</strong> Java 17, Maven, MySQL, JDBC, Jackson, TCP sockets, ExecutorService, JUnit 5</p>
                 <p><a href="https://github.com/nikitsya/Supermarket-Store-System" rel="noreferrer" target="_blank">View
                     on GitHub</a></p>
             </article>
 
             <article class="project-entry">
-                <h3>Emerald-Sip E-commerce</h3>
-                <p>Full-stack application for managing eco-product listings and orders with user interaction and data
-                    handling features.</p>
-                <p><strong>Tech:</strong> JavaScript, Node.js</p>
-                <p><a href="https://github.com/nikitsya/Emerald-Sip" rel="noreferrer" target="_blank">View on GitHub</a>
-                </p>
+                <h3>World Cup 2026 Mexico Guide</h3>
+                <p>Interactive travel guide web application for tourists visiting Mexico during the FIFA World Cup
+                    2026.</p>
+                <p>The application uses Google Maps, Places, and Directions APIs to explore host cities, stadiums,
+                    nearby places, and route planning. It also integrates live weather data, currency conversion,
+                    responsive layouts, and PWA support with a service worker for offline static assets.</p>
+                <p><strong>Tech:</strong> Vanilla JavaScript, ES Modules, HTML, CSS, Google Maps API, Google Places API,
+                    Google Directions API, Open-Meteo API, Frankfurter API, PWA</p>
+                <p><a href="https://github.com/nikitsya/Google-Map-Website" rel="noreferrer" target="_blank">View on
+                    GitHub</a></p>
             </article>
         </div>
     </section>
