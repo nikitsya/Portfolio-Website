@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update portfolio projects and billing platform links">
-      <change beforePath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update CV" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +107,7 @@
       <workItem from="1778799955256" duration="3276000" />
       <workItem from="1778804211920" duration="872000" />
       <workItem from="1778805269582" duration="50000" />
-      <workItem from="1781280843617" duration="5846000" />
+      <workItem from="1781280843617" duration="6059000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -479,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781299116078</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update CV">
+      <option name="closed" value="true" />
+      <created>1781300440509</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1781300440509</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +517,6 @@
     <MESSAGE value="Remove Supermarket Management System project from portfolio" />
     <MESSAGE value="Update cv" />
     <MESSAGE value="Add screenshots section to README" />
-    <MESSAGE value="Update CV" />
     <MESSAGE value="Add standalone book page with PDF and EPUB formats" />
     <MESSAGE value="Update book files" />
     <MESSAGE value="Add icons to the book page" />
@@ -522,6 +527,7 @@
     <MESSAGE value="Update homepage backend developer introduction" />
     <MESSAGE value="Update portfolio tech stack" />
     <MESSAGE value="Update portfolio projects and billing platform links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update portfolio projects and billing platform links" />
+    <MESSAGE value="Update CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CV" />
   </component>
 </project>
