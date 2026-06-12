@@ -102,9 +102,15 @@ li {
     border-top: 1px solid #cfcfcf;
 }
 
-.stack-group:nth-child(-n + 2) {
+.stack-grid > .stack-group:nth-child(-n + 2) {
     padding-top: 0;
     border-top: none;
+}
+
+.stack-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
 }
 
 .stack-group h3 {
@@ -238,7 +244,7 @@ a:focus-visible {
         border-top: 1px solid #cfcfcf;
     }
 
-    .stack-group:first-child {
+    .stack-grid > .stack-group:first-child {
         padding-top: 0;
         border-top: none;
     }
