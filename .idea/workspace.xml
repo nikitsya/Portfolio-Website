@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update portfolio tech stack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update portfolio projects and billing platform links">
+      <change beforePath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/cv" />
       <recent name="$PROJECT_DIR$/book/assets/img" />
       <recent name="$PROJECT_DIR$/book/assets/pdf" />
       <recent name="$PROJECT_DIR$/book/assets" />
       <recent name="$PROJECT_DIR$/book" />
-      <recent name="$PROJECT_DIR$/assets/cv" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -109,7 +109,7 @@
       <workItem from="1778799955256" duration="3276000" />
       <workItem from="1778804211920" duration="872000" />
       <workItem from="1778805269582" duration="50000" />
-      <workItem from="1781280843617" duration="4253000" />
+      <workItem from="1781280843617" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -471,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781295567193</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Update portfolio projects and billing platform links">
+      <option name="closed" value="true" />
+      <created>1781299116078</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1781299116078</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add clickable DkIT course link to About education line" />
     <MESSAGE value="set correct Tech Stack heading and remove duplicate title block" />
     <MESSAGE value="add GitHub projects link and CI/CD note to Projects page" />
     <MESSAGE value="reformat code" />
@@ -514,6 +521,7 @@
     <MESSAGE value="Update book page intro" />
     <MESSAGE value="Update homepage backend developer introduction" />
     <MESSAGE value="Update portfolio tech stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update portfolio tech stack" />
+    <MESSAGE value="Update portfolio projects and billing platform links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update portfolio projects and billing platform links" />
   </component>
 </project>
