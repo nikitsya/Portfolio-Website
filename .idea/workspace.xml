@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Refine tech stack page layout" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Refine contact page layout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,14 +174,7 @@
       <workItem from="1789152281298" duration="13000" />
       <workItem from="1789152440845" duration="2123000" />
       <workItem from="1789154740122" duration="13000" />
-    </task>
-    <task id="LOCAL-00014" summary="make About navigation point to home and redirect /about/ to root">
-      <option name="closed" value="true" />
-      <created>1773697551847</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1773697551847</updated>
+      <workItem from="1789154817554" duration="154000" />
     </task>
     <task id="LOCAL-00015" summary="use non-trailing-slash internal URLs and normalize displayed route paths">
       <option name="closed" value="true" />
@@ -567,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789154747874</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Refine contact page layout">
+      <option name="closed" value="true" />
+      <created>1789154959891</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1789154959892</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Supermarket Management System project from portfolio" />
     <MESSAGE value="Update cv" />
     <MESSAGE value="Add screenshots section to README" />
     <MESSAGE value="Add standalone book page with PDF and EPUB formats" />
@@ -610,6 +610,7 @@
     <MESSAGE value="Improve projects page visual hierarchy" />
     <MESSAGE value="update tech stack details" />
     <MESSAGE value="Refine tech stack page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refine tech stack page layout" />
+    <MESSAGE value="Refine contact page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refine contact page layout" />
   </component>
 </project>
