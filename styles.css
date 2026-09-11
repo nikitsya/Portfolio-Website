@@ -127,42 +127,42 @@ li {
     margin-bottom: 1.5rem;
 }
 
-.stack-grid {
+.stack-table {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 2.6rem;
-    row-gap: 1.4rem;
-    max-width: 48rem;
+    max-width: 49rem;
+    border-top: 1px solid #5f5147;
 }
 
-.stack-group {
-    padding-top: 0.55rem;
-    border-top: 1px solid #cfcfcf;
+.stack-row {
+    display: grid;
+    grid-template-columns: minmax(8.5rem, 0.34fr) minmax(0, 1fr);
+    gap: 1.2rem;
+    padding: 0.82rem 0;
+    border-bottom: 1px solid #cfcfcf;
 }
 
-.stack-grid > .stack-group:nth-child(-n + 2) {
-    padding-top: 0;
-    border-top: none;
-}
-
-.stack-column {
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-}
-
-.stack-group h3 {
-    margin: 0 0 0.65rem;
+.stack-row h3 {
+    margin: 0;
+    color: #2f2f2f;
+    font-size: 1.03rem;
 }
 
 .stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0;
     margin: 0;
     padding-left: 0;
     list-style: none;
 }
 
-.stack-list li + li {
-    margin-top: 0.22rem;
+.stack-list li {
+    display: inline;
+}
+
+.stack-list li:not(:last-child)::after {
+    content: ",";
+    margin-right: 0.5rem;
 }
 
 .projects-list {
@@ -307,20 +307,6 @@ a:focus-visible {
         gap: 0.22rem;
     }
 
-    .stack-grid {
-        grid-template-columns: 1fr;
-        max-width: none;
-    }
-
-    .stack-group {
-        padding-top: 0.55rem;
-        border-top: 1px solid #cfcfcf;
-    }
-
-    .stack-grid > .stack-group:first-child {
-        padding-top: 0;
-        border-top: none;
-    }
 }
 
 @media (max-width: 640px) {
@@ -331,5 +317,11 @@ a:focus-visible {
 
     .minimal-subtitle {
         max-width: none;
+    }
+
+    .stack-row {
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+        padding: 0.9rem 0;
     }
 }
