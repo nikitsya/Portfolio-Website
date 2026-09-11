@@ -166,25 +166,60 @@ li {
 }
 
 .projects-list {
-    margin-top: 1.5rem;
+    display: grid;
+    margin-top: 1.7rem;
 }
 
 .project-entry {
-    padding-top: 0.55rem;
-    border-top: 1px solid #cfcfcf;
+    padding: 1.35rem 0 1.45rem;
+    border-top: 1px solid #bfbfbf;
 }
 
 .project-entry:first-child {
-    padding-top: 0;
-    border-top: none;
+    border-top-color: #5f5147;
 }
 
-.project-entry + .project-entry {
-    margin-top: 1.4rem;
+.project-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+}
+
+.project-heading h3 {
+    margin: 0;
 }
 
 .project-entry p {
-    margin: 0.35rem 0;
+    margin: 0.55rem 0 0;
+}
+
+.project-number {
+    flex: 0 0 auto;
+    color: #7a7069;
+    font-size: 0.88rem;
+    font-weight: 700;
+    min-width: 2.1rem;
+}
+
+.project-summary {
+    color: #262626;
+    font-size: 1.12rem;
+    line-height: 1.45;
+}
+
+.project-tech {
+    color: #4d4d4d;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    margin-top: 0.75rem;
+}
+
+.project-links a {
+    font-weight: 700;
 }
 
 ul {
