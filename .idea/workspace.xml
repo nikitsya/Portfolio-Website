@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Extract shared site navigation partial">
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Improve projects page visual hierarchy">
+      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,65 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000002" />
+      <entry key="S2" value="1.0001301533440567" />
+      <entry key="S5" value="1.0279141269457166" />
+      <entry key="S10" value="1.1688173045368746" />
+      <entry key="S30" value="1.7192424350472741" />
+      <entry key="S60" value="2.3801068719032203" />
+      <entry key="M2" value="3.3705586137468746" />
+      <entry key="M5" value="4.880652099516956" />
+      <entry key="M10" value="5.767859729426159" />
+      <entry key="M15" value="6.13351201082049" />
+      <entry key="M30" value="6.542237093534704" />
+      <entry key="H1" value="6.7645827168137815" />
+      <entry key="H2" value="6.880603487381431" />
+      <entry key="H4" value="6.939872828931356" />
+      <entry key="D1" value="6.9899186337534385" />
+      <entry key="W1" value="6.998558323358507" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0803023455829403E-286" />
+      <entry key="MS500" value="6.407801707145755E-58" />
+      <entry key="S2" value="5.031265850926092E-15" />
+      <entry key="S5" value="1.9084065847737027E-6" />
+      <entry key="S10" value="0.001381450898430235" />
+      <entry key="S30" value="0.11137263230872893" />
+      <entry key="S60" value="0.33372538457349776" />
+      <entry key="M2" value="0.5776896957480699" />
+      <entry key="M5" value="0.8029303024807573" />
+      <entry key="M10" value="0.8960637825962822" />
+      <entry key="M15" value="0.9294498239225436" />
+      <entry key="M30" value="0.964079780890847" />
+      <entry key="H1" value="0.9818756443108498" />
+      <entry key="H2" value="0.9908963842455226" />
+      <entry key="H4" value="0.9954377852209159" />
+      <entry key="D1" value="0.9992381814242375" />
+      <entry key="W1" value="0.999891133225418" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.535624226836889E-7" />
+      <entry key="MS500" value="0.061128967090458765" />
+      <entry key="S2" value="0.49732036037838473" />
+      <entry key="S5" value="0.7797517369842765" />
+      <entry key="S10" value="1.0260563343400064" />
+      <entry key="S30" value="1.7645959508936626" />
+      <entry key="S60" value="2.672418280430022" />
+      <entry key="M2" value="3.9235326275538758" />
+      <entry key="M5" value="5.672246495357184" />
+      <entry key="M10" value="6.657950831885684" />
+      <entry key="M15" value="7.058906274330993" />
+      <entry key="M30" value="7.504250508114191" />
+      <entry key="H1" value="7.745415192708992" />
+      <entry key="H2" value="7.870975746860867" />
+      <entry key="H4" value="7.935047910973889" />
+      <entry key="D1" value="7.989112941829224" />
+      <entry key="W1" value="7.998443186764859" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -115,31 +174,7 @@
       <workItem from="1789149938876" duration="686000" />
       <workItem from="1789151222830" duration="666000" />
       <workItem from="1789152281298" duration="13000" />
-      <workItem from="1789152440845" duration="1046000" />
-    </task>
-    <task id="LOCAL-00008" summary="Add site favicon and apple touch icon from logo image">
-      <option name="closed" value="true" />
-      <created>1771953962253</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1771953962253</updated>
-    </task>
-    <task id="LOCAL-00009" summary="change logo size">
-      <option name="closed" value="true" />
-      <created>1771954106554</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1771954106554</updated>
-    </task>
-    <task id="LOCAL-00010" summary="change logo size">
-      <option name="closed" value="true" />
-      <created>1773696311423</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1773696311423</updated>
+      <workItem from="1789152440845" duration="1937000" />
     </task>
     <task id="LOCAL-00011" summary="set local master to track origin/master">
       <option name="closed" value="true" />
@@ -509,7 +544,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789153098443</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update Billing Platform project description">
+      <option name="closed" value="true" />
+      <created>1789153496484</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1789153496484</updated>
+    </task>
+    <task id="LOCAL-00058" summary="improve supermarket and World Cup project descriptions">
+      <option name="closed" value="true" />
+      <created>1789153846253</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1789153846253</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Improve projects page visual hierarchy">
+      <option name="closed" value="true" />
+      <created>1789154028205</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1789154028205</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,9 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Switch tech stack wording to British English" />
-    <MESSAGE value="Add CV view and download links to home and contact pages" />
-    <MESSAGE value="Add project entries to the projects page" />
     <MESSAGE value="Match project separators to the tech stack layout" />
     <MESSAGE value="Reformat code" />
     <MESSAGE value="Remove Supermarket Management System project from portfolio" />
@@ -552,6 +608,9 @@
     <MESSAGE value="Improve homepage CV and project calls to action" />
     <MESSAGE value="Reorder portfolio navigation links" />
     <MESSAGE value="Extract shared site navigation partial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extract shared site navigation partial" />
+    <MESSAGE value="update Billing Platform project description" />
+    <MESSAGE value="improve supermarket and World Cup project descriptions" />
+    <MESSAGE value="Improve projects page visual hierarchy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve projects page visual hierarchy" />
   </component>
 </project>
