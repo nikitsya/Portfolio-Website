@@ -25,23 +25,12 @@
     </section>
 </main>
 
-<aside aria-label="Site navigation" class="minimal-nav">
-    <p class="minimal-name">Nikita Smiichyk</p>
-    <a href="..">About</a>
-    <a href="../projects">Projects</a>
-    <a href="../tech-stack">Tech Stack</a>
-    <a aria-current="page" href="../contact">Contact</a>
-</aside>
+<div data-navigation-src="../partials/site-navigation.html" data-site-navigation></div>
 
 <footer class="minimal-footer">
     <p>© <span id="year"></span> Nikita Smiichyk</p>
 </footer>
 
-<script>
-    const yearNode = document.getElementById("year");
-    if (yearNode) {
-        yearNode.textContent = String(new Date().getFullYear());
-    }
-</script>
+<script src="../assets/js/site.js"></script>
 </body>
 </html>

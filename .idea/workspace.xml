@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="update cv" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Reorder portfolio navigation links">
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,30 +118,7 @@
       <workItem from="1789149938876" duration="686000" />
       <workItem from="1789151222830" duration="666000" />
       <workItem from="1789152281298" duration="13000" />
-    </task>
-    <task id="LOCAL-00004" summary="p.m., improve table readability, and align daily slots to 9 hourly columns">
-      <option name="closed" value="true" />
-      <created>1771794991718</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1771794991718</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new style">
-      <option name="closed" value="true" />
-      <created>1771952425094</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1771952425094</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add client-side password gate for site access across all pages">
-      <option name="closed" value="true" />
-      <created>1771952650366</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1771952650366</updated>
+      <workItem from="1789152440845" duration="553000" />
     </task>
     <task id="LOCAL-00007" summary="Add 404 redirect to home page for invalid URLs">
       <option name="closed" value="true" />
@@ -506,7 +488,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789152288282</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Update homepage backend profile description">
+      <option name="closed" value="true" />
+      <created>1789152630028</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152630028</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Improve homepage CV and project calls to action">
+      <option name="closed" value="true" />
+      <created>1789152812580</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152812580</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Reorder portfolio navigation links">
+      <option name="closed" value="true" />
+      <created>1789152881369</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152881369</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,9 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reformat code" />
-    <MESSAGE value="Update homepage hero copy and de-emphasize education" />
-    <MESSAGE value="Style navigation links as square buttons" />
     <MESSAGE value="Improve tech stack page structure and readability" />
     <MESSAGE value="Switch tech stack wording to British English" />
     <MESSAGE value="Add CV view and download links to home and contact pages" />
@@ -549,6 +552,9 @@
     <MESSAGE value="Update CV" />
     <MESSAGE value="add docx cv file" />
     <MESSAGE value="update cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cv" />
+    <MESSAGE value="Update homepage backend profile description" />
+    <MESSAGE value="Improve homepage CV and project calls to action" />
+    <MESSAGE value="Reorder portfolio navigation links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorder portfolio navigation links" />
   </component>
 </project>
