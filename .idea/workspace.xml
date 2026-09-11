@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Refine contact page layout" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Unify table divider colours">
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,30 +180,7 @@
       <workItem from="1789152440845" duration="2123000" />
       <workItem from="1789154740122" duration="13000" />
       <workItem from="1789154817554" duration="154000" />
-    </task>
-    <task id="LOCAL-00015" summary="use non-trailing-slash internal URLs and normalize displayed route paths">
-      <option name="closed" value="true" />
-      <created>1773697844272</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1773697844272</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update About section with personal bio and backend-focused summary">
-      <option name="closed" value="true" />
-      <created>1773698196706</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1773698196706</updated>
-    </task>
-    <task id="LOCAL-00017" summary="update About section with provided education and backend-focused profile text">
-      <option name="closed" value="true" />
-      <created>1773698461179</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1773698461179</updated>
+      <workItem from="1789155097990" duration="882000" />
     </task>
     <task id="LOCAL-00018" summary="remove Backend Focus page and all related navigation links">
       <option name="closed" value="true" />
@@ -568,7 +550,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789154959892</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Move project link above CV actions">
+      <option name="closed" value="true" />
+      <created>1789155247194</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1789155247194</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Add cache busting for site assets">
+      <option name="closed" value="true" />
+      <created>1789155565945</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1789155565945</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Unify table divider colours">
+      <option name="closed" value="true" />
+      <created>1789155739364</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1789155739364</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,9 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update cv" />
-    <MESSAGE value="Add screenshots section to README" />
-    <MESSAGE value="Add standalone book page with PDF and EPUB formats" />
     <MESSAGE value="Update book files" />
     <MESSAGE value="Add icons to the book page" />
     <MESSAGE value="Update book and page" />
@@ -611,6 +614,9 @@
     <MESSAGE value="update tech stack details" />
     <MESSAGE value="Refine tech stack page layout" />
     <MESSAGE value="Refine contact page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refine contact page layout" />
+    <MESSAGE value="Move project link above CV actions" />
+    <MESSAGE value="Add cache busting for site assets" />
+    <MESSAGE value="Unify table divider colours" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unify table divider colours" />
   </component>
 </project>
