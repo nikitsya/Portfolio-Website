@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="update cv">
-      <change beforePath="$PROJECT_DIR$/assets/cv/~$kita_Smiichyk_CV.docx" beforeDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="update cv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,14 +112,7 @@
       <workItem from="1781652481004" duration="17000" />
       <workItem from="1789149938876" duration="686000" />
       <workItem from="1789151222830" duration="666000" />
-    </task>
-    <task id="LOCAL-00003" summary="Change timetable to hourly slots from 09:00 to 18:00 and update editable schedule logic">
-      <option name="closed" value="true" />
-      <created>1771794813124</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1771794813124</updated>
+      <workItem from="1789152281298" duration="13000" />
     </task>
     <task id="LOCAL-00004" summary="p.m., improve table readability, and align daily slots to 9 hourly columns">
       <option name="closed" value="true" />
@@ -507,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789152251622</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update cv">
+      <option name="closed" value="true" />
+      <created>1789152288282</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152288282</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
