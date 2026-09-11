@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="add docx cv file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.docx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.pdf" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="update cv">
+      <change beforePath="$PROJECT_DIR$/assets/cv/~$kita_Smiichyk_CV.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,15 +113,7 @@
       <workItem from="1781301170943" duration="25000" />
       <workItem from="1781652481004" duration="17000" />
       <workItem from="1789149938876" duration="686000" />
-      <workItem from="1789151222830" duration="638000" />
-    </task>
-    <task id="LOCAL-00002" summary="Create separate editable timetable page with localStorage persistence and update navigation">
-      <option name="closed" value="true" />
-      <created>1771794696810</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1771794696810</updated>
+      <workItem from="1789151222830" duration="666000" />
     </task>
     <task id="LOCAL-00003" summary="Change timetable to hourly slots from 09:00 to 18:00 and update editable schedule logic">
       <option name="closed" value="true" />
@@ -509,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789151138616</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update cv">
+      <option name="closed" value="true" />
+      <created>1789152251621</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152251622</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add GitHub projects link and CI/CD note to Projects page" />
     <MESSAGE value="reformat code" />
     <MESSAGE value="Update homepage hero copy and de-emphasize education" />
     <MESSAGE value="Style navigation links as square buttons" />
@@ -552,6 +549,7 @@
     <MESSAGE value="Update portfolio projects and billing platform links" />
     <MESSAGE value="Update CV" />
     <MESSAGE value="add docx cv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docx cv file" />
+    <MESSAGE value="update cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cv" />
   </component>
 </project>
