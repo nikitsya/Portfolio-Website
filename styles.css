@@ -331,10 +331,27 @@ a:focus-visible {
     .minimal-nav {
         position: static;
         width: min(900px, calc(100% - 2rem));
-        margin: 0 auto 1.2rem;
+        margin: 1rem auto 1.6rem;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: flex-start;
         text-align: left;
-        gap: 0.22rem;
+        gap: 0.28rem;
+    }
+
+    .minimal-nav a {
+        width: auto;
+        min-width: 0;
+        padding: 0.22rem 0.58rem;
+    }
+
+    .minimal-name {
+        width: 100%;
+        margin-bottom: 0.18rem;
+    }
+
+    .minimal-layout {
+        margin-top: 1.8rem;
     }
 
 }
@@ -349,6 +366,15 @@ a:focus-visible {
         max-width: none;
     }
 
+    .minimal-nav {
+        gap: 0.25rem;
+    }
+
+    .minimal-nav a {
+        padding: 0.2rem 0.44rem;
+        font-size: 0.94rem;
+    }
+
     .stack-row {
         grid-template-columns: 1fr;
         gap: 0.35rem;
@@ -359,5 +385,16 @@ a:focus-visible {
         grid-template-columns: 1fr;
         gap: 0.35rem;
         padding: 0.9rem 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .minimal-nav {
+        gap: 0.18rem;
+    }
+
+    .minimal-nav a {
+        padding: 0.18rem 0.26rem;
+        font-size: 0.92rem;
     }
 }
