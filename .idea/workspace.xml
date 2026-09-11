@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Reorder portfolio navigation links">
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Extract shared site navigation partial">
       <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,15 +115,7 @@
       <workItem from="1789149938876" duration="686000" />
       <workItem from="1789151222830" duration="666000" />
       <workItem from="1789152281298" duration="13000" />
-      <workItem from="1789152440845" duration="553000" />
-    </task>
-    <task id="LOCAL-00007" summary="Add 404 redirect to home page for invalid URLs">
-      <option name="closed" value="true" />
-      <created>1771952846228</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1771952846228</updated>
+      <workItem from="1789152440845" duration="1046000" />
     </task>
     <task id="LOCAL-00008" summary="Add site favicon and apple touch icon from logo image">
       <option name="closed" value="true" />
@@ -512,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789152881369</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Extract shared site navigation partial">
+      <option name="closed" value="true" />
+      <created>1789153098443</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1789153098443</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improve tech stack page structure and readability" />
     <MESSAGE value="Switch tech stack wording to British English" />
     <MESSAGE value="Add CV view and download links to home and contact pages" />
     <MESSAGE value="Add project entries to the projects page" />
@@ -555,6 +551,7 @@
     <MESSAGE value="Update homepage backend profile description" />
     <MESSAGE value="Improve homepage CV and project calls to action" />
     <MESSAGE value="Reorder portfolio navigation links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorder portfolio navigation links" />
+    <MESSAGE value="Extract shared site navigation partial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extract shared site navigation partial" />
   </component>
 </project>

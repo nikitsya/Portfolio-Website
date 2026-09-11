@@ -13,18 +13,19 @@
 <main class="minimal-layout">
     <section class="minimal-section">
         <h1>Projects</h1>
-        <p class="minimal-lead">Selected backend, full-stack, and API-focused projects.</p>
+        <p class="minimal-lead">Selected backend and API-focused software projects.</p>
 
         <div class="projects-list">
             <article class="project-entry">
-                <h3>Billing Platform Demo</h3>
-                <p>Full-stack billing-focused application with a deployed frontend, Spring Boot backend API, and
-                    PostgreSQL database.</p>
-                <p>The project supports customer creation and retrieval through REST API endpoints. The frontend is
-                    deployed on a custom domain, the backend runs on Render, and the database is hosted on Neon
-                    PostgreSQL. Database schema changes are managed with Flyway, and database credentials are stored
-                    securely through environment variables.</p>
-                <p><strong>Tech:</strong> Java, Spring Boot, PostgreSQL, Flyway, REST API, Render, Neon, JavaScript</p>
+                <h3>Billing Platform API</h3>
+                <p>Stripe-inspired billing platform with a Java/Spring Boot REST API, PostgreSQL database, and
+                    separately deployed frontend.</p>
+                <p>The backend exposes REST APIs for customers, products, prices, subscriptions, and payment intents. It
+                    implements subscription lifecycle rules, payment-intent state transitions, input validation,
+                    structured API error responses, and database constraints. Schema changes are managed with Flyway,
+                    and the backend is deployed on Render with PostgreSQL hosted on Neon.</p>
+                <p><strong>Tech:</strong> Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, REST API, Docker,
+                    Render, Neon, JavaScript</p>
                 <p><strong>Live Demo:</strong>
                     <a href="https://billing.nikitsya.dev" rel="noreferrer" target="_blank">billing.nikitsya.dev</a>
                 </p>
