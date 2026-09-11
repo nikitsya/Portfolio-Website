@@ -222,6 +222,40 @@ li {
     font-weight: 700;
 }
 
+.contact-lead {
+    margin-bottom: 1.35rem;
+}
+
+.contact-table {
+    display: grid;
+    max-width: 42rem;
+    border-top: 1px solid #5f5147;
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: minmax(7rem, 0.32fr) minmax(0, 1fr);
+    gap: 1.2rem;
+    padding: 0.82rem 0;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.contact-row h3,
+.contact-row p {
+    margin: 0;
+}
+
+.contact-row h3 {
+    color: #2f2f2f;
+    font-size: 1.03rem;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+}
+
 ul {
     margin: 0.6rem 0 0;
     padding-left: 1.2rem;
@@ -320,6 +354,12 @@ a:focus-visible {
     }
 
     .stack-row {
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+        padding: 0.9rem 0;
+    }
+
+    .contact-row {
         grid-template-columns: 1fr;
         gap: 0.35rem;
         padding: 0.9rem 0;

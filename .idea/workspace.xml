@@ -173,14 +173,7 @@
       <workItem from="1789151222830" duration="666000" />
       <workItem from="1789152281298" duration="13000" />
       <workItem from="1789152440845" duration="2123000" />
-    </task>
-    <task id="LOCAL-00013" summary="make 404 handler silently redirect all unknown routes to home">
-      <option name="closed" value="true" />
-      <created>1773697259525</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1773697259525</updated>
+      <workItem from="1789154740122" duration="13000" />
     </task>
     <task id="LOCAL-00014" summary="make About navigation point to home and redirect /about/ to root">
       <option name="closed" value="true" />
@@ -566,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789154525355</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Refine tech stack page layout">
+      <option name="closed" value="true" />
+      <created>1789154747873</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1789154747874</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
