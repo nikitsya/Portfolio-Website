@@ -130,7 +130,7 @@ li {
 .stack-table {
     display: grid;
     max-width: 49rem;
-    border-top: 1px solid #5f5147;
+    border-top: 1px solid #cfcfcf;
 }
 
 .stack-row {
@@ -172,11 +172,7 @@ li {
 
 .project-entry {
     padding: 1.35rem 0 1.45rem;
-    border-top: 1px solid #bfbfbf;
-}
-
-.project-entry:first-child {
-    border-top-color: #5f5147;
+    border-top: 1px solid #cfcfcf;
 }
 
 .project-heading {
@@ -229,7 +225,7 @@ li {
 .contact-table {
     display: grid;
     max-width: 42rem;
-    border-top: 1px solid #5f5147;
+    border-top: 1px solid #cfcfcf;
 }
 
 .contact-row {
