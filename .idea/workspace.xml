@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Improve projects page visual hierarchy">
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Refine tech stack page layout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,23 +172,7 @@
       <workItem from="1789149938876" duration="686000" />
       <workItem from="1789151222830" duration="666000" />
       <workItem from="1789152281298" duration="13000" />
-      <workItem from="1789152440845" duration="1937000" />
-    </task>
-    <task id="LOCAL-00011" summary="set local master to track origin/master">
-      <option name="closed" value="true" />
-      <created>1773696902810</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1773696902810</updated>
-    </task>
-    <task id="LOCAL-00012" summary="switch site navigation to clean URLs without .html extensions">
-      <option name="closed" value="true" />
-      <created>1773697157580</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1773697157580</updated>
+      <workItem from="1789152440845" duration="2123000" />
     </task>
     <task id="LOCAL-00013" summary="make 404 handler silently redirect all unknown routes to home">
       <option name="closed" value="true" />
@@ -568,7 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789154028205</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update tech stack details">
+      <option name="closed" value="true" />
+      <created>1789154390190</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1789154390190</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Refine tech stack page layout">
+      <option name="closed" value="true" />
+      <created>1789154525355</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1789154525355</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,8 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Match project separators to the tech stack layout" />
-    <MESSAGE value="Reformat code" />
     <MESSAGE value="Remove Supermarket Management System project from portfolio" />
     <MESSAGE value="Update cv" />
     <MESSAGE value="Add screenshots section to README" />
@@ -611,6 +607,8 @@
     <MESSAGE value="update Billing Platform project description" />
     <MESSAGE value="improve supermarket and World Cup project descriptions" />
     <MESSAGE value="Improve projects page visual hierarchy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve projects page visual hierarchy" />
+    <MESSAGE value="update tech stack details" />
+    <MESSAGE value="Refine tech stack page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refine tech stack page layout" />
   </component>
 </project>
