@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Unify table divider colours">
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,31 +178,10 @@
       <workItem from="1789152440845" duration="2123000" />
       <workItem from="1789154740122" duration="13000" />
       <workItem from="1789154817554" duration="154000" />
-      <workItem from="1789155097990" duration="882000" />
-    </task>
-    <task id="LOCAL-00018" summary="remove Backend Focus page and all related navigation links">
-      <option name="closed" value="true" />
-      <created>1773698781326</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1773698781326</updated>
-    </task>
-    <task id="LOCAL-00019" summary="remove Backend Focus page and all related navigation links">
-      <option name="closed" value="true" />
-      <created>1773698831573</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1773698831573</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add clickable DkIT course link to About education line">
-      <option name="closed" value="true" />
-      <created>1773699306945</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1773699306945</updated>
+      <workItem from="1789155097990" duration="1334000" />
+      <workItem from="1789676693365" duration="5000" />
+      <workItem from="1790271167757" duration="208000" />
+      <workItem from="1793061203274" duration="72000" />
     </task>
     <task id="LOCAL-00021" summary="set correct Tech Stack heading and remove duplicate title block">
       <option name="closed" value="true" />
@@ -574,7 +551,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789155739364</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Bump site asset cache version">
+      <option name="closed" value="true" />
+      <created>1789155993152</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1789155993152</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Bump site asset cache version">
+      <option name="closed" value="true" />
+      <created>1789156123938</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1789156123938</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Move mobile navigation to top">
+      <option name="closed" value="true" />
+      <created>1789156424490</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1789156424490</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,8 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update book files" />
-    <MESSAGE value="Add icons to the book page" />
     <MESSAGE value="Update book and page" />
     <MESSAGE value="Change background" />
     <MESSAGE value="Add books catalogue and Prirodnaya Sekta page" />
@@ -617,6 +616,8 @@
     <MESSAGE value="Move project link above CV actions" />
     <MESSAGE value="Add cache busting for site assets" />
     <MESSAGE value="Unify table divider colours" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unify table divider colours" />
+    <MESSAGE value="Bump site asset cache version" />
+    <MESSAGE value="Move mobile navigation to top" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move mobile navigation to top" />
   </component>
 </project>
