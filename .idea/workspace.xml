@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Group Python, Kotlin and C++ under Additional Languages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
       </set>
     </attachedChunks>
   </component>
@@ -182,14 +179,7 @@
       <workItem from="1789676693365" duration="5000" />
       <workItem from="1790271167757" duration="208000" />
       <workItem from="1793061203274" duration="72000" />
-    </task>
-    <task id="LOCAL-00021" summary="set correct Tech Stack heading and remove duplicate title block">
-      <option name="closed" value="true" />
-      <created>1773699629221</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1773699629221</updated>
+      <workItem from="1793061295676" duration="359000" />
     </task>
     <task id="LOCAL-00022" summary="add GitHub projects link and CI/CD note to Projects page">
       <option name="closed" value="true" />
@@ -575,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789156424490</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Group Python, Kotlin and C++ under Additional Languages">
+      <option name="closed" value="true" />
+      <created>1793061408030</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1793061408033</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update book and page" />
     <MESSAGE value="Change background" />
     <MESSAGE value="Add books catalogue and Prirodnaya Sekta page" />
     <MESSAGE value="Update book page intro" />
@@ -618,6 +615,7 @@
     <MESSAGE value="Unify table divider colours" />
     <MESSAGE value="Bump site asset cache version" />
     <MESSAGE value="Move mobile navigation to top" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move mobile navigation to top" />
+    <MESSAGE value="Group Python, Kotlin and C++ under Additional Languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Group Python, Kotlin and C++ under Additional Languages" />
   </component>
 </project>
