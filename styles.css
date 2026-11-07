@@ -9,6 +9,8 @@ body {
 }
 
 body.minimal-home {
+    --cv-orange: #f0a22e;
+    --cv-orange-ink: #845209;
     color: #101010;
     background: #e9e9e9;
     font-family: "Times New Roman", Times, serif;
@@ -84,15 +86,16 @@ li {
 
 .primary-action {
     padding: 0.42rem 0.9rem;
-    background: #111111;
-    color: #f3f3f3;
+    background: #fcecd5;
+    box-shadow: inset 0 -2px var(--cv-orange);
+    color: var(--cv-orange-ink);
     text-decoration: none;
 }
 
 .primary-action:hover,
 .primary-action:focus-visible {
-    background: #2f2925;
-    color: #ffffff;
+    background: var(--cv-orange);
+    color: #111111;
 }
 
 .secondary-action {
@@ -294,7 +297,12 @@ a:focus-visible {
 .minimal-nav a:hover,
 .minimal-nav a:focus-visible {
     background: #dfdfdf;
-    outline: none;
+}
+
+.primary-action:focus-visible,
+.minimal-nav a:focus-visible {
+    outline: 2px solid var(--cv-orange-ink);
+    outline-offset: 2px;
 }
 
 .minimal-nav a:active {
@@ -303,7 +311,8 @@ a:focus-visible {
 
 .minimal-nav a[aria-current="page"] {
     color: #111111;
-    text-decoration: none;
+    text-decoration: underline var(--cv-orange) 2px;
+    text-underline-offset: 0.2em;
     pointer-events: none;
     background: #eeeeee;
 }
