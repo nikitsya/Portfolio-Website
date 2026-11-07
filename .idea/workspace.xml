@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Clarify personal contributions to Supermarket">
-      <change beforePath="$PROJECT_DIR$/assets/icons/stack/sources.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/stack/sources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,23 +190,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="4445000" />
-    </task>
-    <task id="LOCAL-00041" summary="Change background">
-      <option name="closed" value="true" />
-      <created>1778712145451</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1778712145451</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Add books catalogue and Prirodnaya Sekta page">
-      <option name="closed" value="true" />
-      <created>1778805068701</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1778805068701</updated>
+      <workItem from="1794019053202" duration="5104000" />
     </task>
     <task id="LOCAL-00043" summary="Update book page intro">
       <option name="closed" value="true" />
@@ -586,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794023310145</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Add tech stack icons beneath project titles">
+      <option name="closed" value="true" />
+      <created>1794023681643</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1794023681643</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Add WebStorm and PyCharm to the tech stack">
+      <option name="closed" value="true" />
+      <created>1794023786021</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1794023786021</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,8 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Move project link above CV actions" />
-    <MESSAGE value="Add cache busting for site assets" />
     <MESSAGE value="Unify table divider colours" />
     <MESSAGE value="Bump site asset cache version" />
     <MESSAGE value="Move mobile navigation to top" />
@@ -629,6 +625,8 @@
     <MESSAGE value="Add icons to contact methods" />
     <MESSAGE value="Align desktop navigation with the content container" />
     <MESSAGE value="Clarify personal contributions to Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clarify personal contributions to Supermarket" />
+    <MESSAGE value="Add tech stack icons beneath project titles" />
+    <MESSAGE value="Add WebStorm and PyCharm to the tech stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add WebStorm and PyCharm to the tech stack" />
   </component>
 </project>

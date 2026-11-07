@@ -7,40 +7,39 @@
     <meta content="Contact page for Nikita Smiichyk portfolio." name="description"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="apple-touch-icon"/>
-    <link href="../styles.css?v=20261107-contained-navigation" rel="stylesheet"/>
+    <link href="../styles.css?v=20261107-contact-layout" rel="stylesheet"/>
 </head>
 <body class="minimal-home">
 <div data-navigation-src="../partials/site-navigation.html" data-site-navigation></div>
 
 <main class="minimal-layout">
-    <section class="minimal-section">
+    <section class="minimal-section contact-section">
         <h1>Contact</h1>
-        <p class="minimal-lead contact-lead">Reach me through the links below.</p>
+        <p class="minimal-lead contact-lead">For projects, opportunities or a quick hello.</p>
 
-        <div class="contact-table">
-            <div class="contact-row">
-                <h3><img class="contact-icon" src="../assets/icons/contact/mail.svg" width="18" height="18" alt="" aria-hidden="true"/>Email</h3>
-                <p><a href="mailto:nikitasmiichyk@gmail.com">nikitasmiichyk@gmail.com</a></p>
-            </div>
+        <a class="contact-email" href="mailto:nikitasmiichyk@gmail.com">
+            <img class="contact-icon" src="../assets/icons/contact/mail.svg" width="24" height="24" alt="" aria-hidden="true"/>
+            <span>nikitasmiichyk@gmail.com</span>
+        </a>
 
-            <div class="contact-row">
-                <h3><img class="contact-icon" src="../assets/icons/stack/github.svg" width="18" height="18" alt="" aria-hidden="true"/>GitHub</h3>
-                <p><a href="https://github.com/nikitsya" rel="noreferrer" target="_blank">github.com/nikitsya</a></p>
-            </div>
+        <ul class="contact-profiles" aria-label="Social profiles" role="list">
+            <li>
+                <a class="contact-profile" href="https://github.com/nikitsya" rel="noreferrer" target="_blank">
+                    <img class="contact-icon" src="../assets/icons/stack/github.svg" width="18" height="18" alt="" aria-hidden="true"/>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="contact-profile" href="https://www.linkedin.com/in/nikitsya" rel="noreferrer" target="_blank">
+                    <img class="contact-icon" src="../assets/icons/contact/linkedin.svg" width="18" height="18" alt="" aria-hidden="true"/>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+        </ul>
 
-            <div class="contact-row">
-                <h3><img class="contact-icon" src="../assets/icons/contact/linkedin.svg" width="18" height="18" alt="" aria-hidden="true"/>LinkedIn</h3>
-                <p><a href="https://www.linkedin.com/in/nikitsya" rel="noreferrer" target="_blank">linkedin.com/in/nikitsya</a>
-                </p>
-            </div>
-
-            <div class="contact-row">
-                <h3><img class="contact-icon" src="../assets/icons/contact/file-text.svg" width="18" height="18" alt="" aria-hidden="true"/>CV</h3>
-                <p class="contact-links">
-                    <a href="../assets/cv/Nikita_Smiichyk_CV.pdf" rel="noreferrer" target="_blank">View CV</a>
-                    <a download href="../assets/cv/Nikita_Smiichyk_CV.pdf">Download CV</a>
-                </p>
-            </div>
+        <div class="contact-cv">
+            <a class="primary-action" href="../assets/cv/Nikita_Smiichyk_CV.pdf" rel="noreferrer" target="_blank">View CV</a>
+            <a class="secondary-action" download href="../assets/cv/Nikita_Smiichyk_CV.pdf">Download CV</a>
         </div>
     </section>
 </main>
