@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Redesign the favicon with a split white N">
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Restructure projects for quicker scanning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/dom-bez-dverey/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/prirodnaya-sekta/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/prirodnaya-sekta/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,15 +192,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="1011000" />
-    </task>
-    <task id="LOCAL-00030" summary="Match project separators to the tech stack layout">
-      <option name="closed" value="true" />
-      <created>1774740971334</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1774740971334</updated>
+      <workItem from="1794019053202" duration="2293000" />
     </task>
     <task id="LOCAL-00031" summary="Reformat code">
       <option name="closed" value="true" />
@@ -591,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794016405313</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Redesign the favicon with a split white N">
+      <option name="closed" value="true" />
+      <created>1794020072494</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1794020072494</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,7 +8,7 @@
           name="description"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="apple-touch-icon"/>
-    <link href="../styles.css?v=20261107" rel="stylesheet"/>
+    <link href="../styles.css?v=20261107-grey-decisions-highlight" rel="stylesheet"/>
 </head>
 <body class="minimal-home">
 <div data-navigation-src="../partials/site-navigation.html" data-site-navigation></div>
@@ -22,102 +22,174 @@
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">01</span>
-                    <h3>Billing Platform API</h3>
+                    <h2>Billing Platform API</h2>
                 </div>
-                <p class="project-summary">A billing backend for managing subscriptions and payments, built with
-                    Java, Spring Boot, and PostgreSQL, with a separately deployed frontend.</p>
-                <p>The backend exposes REST APIs for customers, products, prices, subscriptions, and payment intents. It
-                    implements subscription lifecycle rules, payment-intent state transitions, input validation,
-                    structured API error responses, and database constraints. Schema changes are managed with Flyway,
-                    and the backend is deployed on Render with PostgreSQL hosted on Neon.</p>
-                <p class="project-tech"><strong>Tech:</strong> Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway,
-                    REST API, Docker, Render, Neon, JavaScript</p>
+                <p class="project-summary">Manages customers, subscriptions and payments through a billing API.</p>
+                <p class="project-contribution"><strong>What I built:</strong> Built the backend APIs, subscription
+                    rules and payment-intent workflows.</p>
+                <h3 class="project-decisions-heading">Key technical decisions</h3>
+                <ul class="project-decisions">
+                    <li><strong>Explicit state transitions:</strong> Subscription lifecycle and payment-intent rules.
+                    </li>
+                    <li><strong>Validated data:</strong> Input validation, structured errors and database constraints.
+                    </li>
+                    <li><strong>Versioned schema:</strong> Flyway migrations for PostgreSQL.</li>
+                </ul>
                 <div class="project-links">
                     <a href="https://billing.nikitsya.dev" rel="noreferrer" target="_blank">billing.nikitsya.dev</a>
                     <a href="https://github.com/nikitsya/Billing-Platform-Frontend" rel="noreferrer"
                        target="_blank">Frontend repo</a>
                     <a href="https://github.com/nikitsya/Billing-Platform-API" rel="noreferrer"
                        target="_blank">Backend repo</a>
-                    <a href="https://billing-platform-api.onrender.com" rel="noreferrer"
+                    <a href="https://billing-platform-api.onrender.com/api/v1/ping" rel="noreferrer"
                        target="_blank">Backend API</a>
                 </div>
+                <details class="project-details">
+                    <summary>Implementation details</summary>
+                    <p>The backend exposes REST APIs for customers, products, prices, subscriptions, and payment
+                        intents. It
+                        implements subscription lifecycle rules, payment-intent state transitions, input validation,
+                        structured API error responses, and database constraints. Schema changes are managed with
+                        Flyway,
+                        and the backend is deployed on Render with PostgreSQL hosted on Neon.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Java, Spring Boot, Spring Data JPA, PostgreSQL,
+                        Flyway,
+                        REST API, Docker, Render, Neon, JavaScript</p>
+                </details>
             </article>
 
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">02</span>
-                    <h3>UniStow</h3>
+                    <h2>UniStow</h2>
                 </div>
-                <p class="project-summary">Campus locker prototype with a Python/FastAPI booking service,
-                    Stripe Checkout in test mode, and a physical locker controlled by a Raspberry Pi.</p>
-                <p>Built the reservation and payment flow with PostgreSQL, verified Stripe webhook signatures,
-                    and tested duplicate and out-of-order notifications. Unlocking is restricted to the renter
-                    during the paid period. PubNub carries opening commands and door events between the web
-                    application and the Raspberry Pi. The application is hosted on AWS EC2 behind Nginx.</p>
-                <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, PostgreSQL, Stripe Checkout,
-                    PubNub, Raspberry Pi, unittest, Docker, AWS EC2, Nginx</p>
+                <p class="project-summary">A campus locker prototype for booking, test payments and physical
+                    unlocking.</p>
+                <p class="project-contribution"><strong>What I built:</strong> Built the reservation and payment flow,
+                    including webhook verification and payment-event tests.</p>
+                <h3 class="project-decisions-heading">Key technical decisions</h3>
+                <ul class="project-decisions">
+                    <li><strong>Verified payments:</strong> Stripe Checkout in test mode; signed webhooks and
+                        duplicate-event tests.
+                    </li>
+                    <li><strong>Restricted access:</strong> Only the renter can unlock during the paid period.</li>
+                    <li><strong>Connected hardware:</strong> PubNub carries commands and door events to a Raspberry Pi.
+                    </li>
+                </ul>
                 <div class="project-links">
                     <a href="https://unistow.app" rel="noreferrer" target="_blank">unistow.app</a>
                     <a href="https://github.com/nikitsya/UniStow" rel="noreferrer"
                        target="_blank">View on GitHub</a>
                 </div>
+                <details class="project-details">
+                    <summary>Implementation details</summary>
+                    <p>Built the reservation and payment flow with PostgreSQL, verified Stripe webhook signatures,
+                        and tested duplicate and out-of-order notifications. Unlocking is restricted to the renter
+                        during the paid period. PubNub carries opening commands and door events between the web
+                        application and the Raspberry Pi. The application is hosted on AWS EC2 behind Nginx.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, PostgreSQL, Stripe Checkout,
+                        PubNub, Raspberry Pi, unittest, Docker, AWS EC2, Nginx</p>
+                </details>
             </article>
 
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">03</span>
-                    <h3>TempSafe</h3>
+                    <h2>TempSafe</h2>
+                    <span class="project-label">Group project</span>
                 </div>
-                <p class="project-summary">Temperature monitoring for a prototype medication box, with a
-                    Python/FastAPI backend, MQTT readings, and a web dashboard.</p>
-                <p>Developed the backend, database, and tests in a team of three. The service validates incoming
-                    readings and acknowledges them only after MySQL has stored them. Device retries preserve
-                    the original measurement without creating duplicates, with pytest coverage for conflicting
-                    readings and failed writes. The dashboard and API are hosted on AWS EC2 behind Nginx.</p>
-                <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, MQTT, SQLAlchemy, MySQL,
-                    pytest, Docker, AWS EC2, Nginx</p>
+                <p class="project-summary">Tracks temperature readings from a prototype medication box in a web
+                    dashboard.</p>
+                <p class="project-contribution"><strong>My contribution:</strong> Developed the backend, database and
+                    tests in a team of three.</p>
+                <h3 class="project-decisions-heading">Key technical decisions</h3>
+                <ul class="project-decisions">
+                    <li><strong>Reliable ingestion:</strong> Acknowledge MQTT readings only after MySQL stores them.
+                    </li>
+                    <li><strong>Safe retries:</strong> Preserve the original measurement without creating duplicates.
+                    </li>
+                    <li><strong>Failure coverage:</strong> pytest checks conflicting readings and failed writes.</li>
+                </ul>
                 <div class="project-links">
                     <a href="https://tempsafe.app" rel="noreferrer" target="_blank">tempsafe.app</a>
                     <a href="https://github.com/nikitsya/TempSafe" rel="noreferrer"
                        target="_blank">View on GitHub</a>
                 </div>
+                <details class="project-details">
+                    <summary>Implementation details</summary>
+                    <p>Developed the backend, database, and tests in a team of three. The service validates incoming
+                        readings and acknowledges them only after MySQL has stored them. Device retries preserve
+                        the original measurement without creating duplicates, with pytest coverage for conflicting
+                        readings and failed writes. The dashboard and API are hosted on AWS EC2 behind Nginx.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, MQTT, SQLAlchemy, MySQL,
+                        pytest, Docker, AWS EC2, Nginx</p>
+                </details>
             </article>
 
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">04</span>
-                    <h3>Supermarket Store System</h3>
+                    <h2>Supermarket Store System</h2>
+                    <span class="project-label">Group project</span>
                 </div>
-                <p class="project-summary">Collaborative Java client-server application for managing supermarket
-                    departments, products, inventory, pricing, and images.</p>
-                <p>Developed as part of a team using a custom JSON protocol over TCP. The system uses a multithreaded
-                    server to handle concurrent clients, DAO-based persistence with JDBC and MySQL, structured
-                    success/error responses, image upload and retrieval, and automated tests covering validation,
-                    persistence, routing, protocol handling, and file transfers.</p>
-                <p class="project-tech"><strong>Tech:</strong> Java 17, Maven, MySQL, JDBC, Jackson, TCP sockets,
-                    ExecutorService, JUnit 5</p>
+                <p class="project-summary">Manages supermarket departments, products, stock, prices and images.</p>
+                <p class="project-contribution"><strong>My contribution:</strong> Contributed to a team-built Java
+                    client–server application.</p>
+                <h3 class="project-decisions-heading">Key technical decisions</h3>
+                <ul class="project-decisions">
+                    <li><strong>Concurrent clients:</strong> A multithreaded server handles parallel connections.</li>
+                    <li><strong>Explicit protocol:</strong> JSON over TCP with structured success and error responses.
+                    </li>
+                    <li><strong>Separated persistence:</strong> DAOs use JDBC to access MySQL.</li>
+                </ul>
                 <div class="project-links">
                     <a href="https://github.com/nikitsya/Supermarket-Store-System" rel="noreferrer" target="_blank">View
                         on GitHub</a>
                 </div>
+                <details class="project-details">
+                    <summary>Implementation details</summary>
+                    <p>Developed as part of a team using a custom JSON protocol over TCP. The system uses a
+                        multithreaded
+                        server to handle concurrent clients, DAO-based persistence with JDBC and MySQL, structured
+                        success/error responses, image upload and retrieval, and automated tests covering validation,
+                        persistence, routing, protocol handling, and file transfers.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Java 17, Maven, MySQL, JDBC, Jackson, TCP sockets,
+                        ExecutorService, JUnit 5</p>
+                </details>
             </article>
 
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">05</span>
-                    <h3>World Cup 2026 Mexico Guide</h3>
+                    <h2>World Cup 2026 Mexico Guide</h2>
                 </div>
-                <p class="project-summary">Interactive API-driven travel guide for visitors to Mexico during the FIFA
-                    World Cup 2026.</p>
-                <p>Integrated Google Maps, Places, and Directions APIs for stadium exploration, nearby place search, and
-                    route planning. Added live weather data, currency conversion, responsive layouts, and PWA support
-                    with a service worker for offline static assets.</p>
-                <p class="project-tech"><strong>Tech:</strong> Vanilla JavaScript, ES Modules, HTML, CSS, Google Maps
-                    API, Google Places API, Google Directions API, Open-Meteo API, Frankfurter API, PWA</p>
+                <p class="project-summary">Helps World Cup visitors explore Mexican stadiums, find nearby places and
+                    plan routes.</p>
+                <p class="project-contribution"><strong>What I built:</strong> Integrated mapping, weather and currency
+                    APIs; added responsive layouts and PWA support.</p>
+                <h3 class="project-decisions-heading">Key technical decisions</h3>
+                <ul class="project-decisions">
+                    <li><strong>Map-based planning:</strong> Google Maps, Places and Directions connect search with
+                        routes.
+                    </li>
+                    <li><strong>Live travel data:</strong> Weather and currency conversion through external APIs.</li>
+                    <li><strong>Offline assets:</strong> A service worker caches static assets for the PWA.</li>
+                </ul>
                 <div class="project-links">
                     <a href="https://github.com/nikitsya/Google-Map-Website" rel="noreferrer" target="_blank">View on
                         GitHub</a>
                 </div>
+                <details class="project-details">
+                    <summary>Implementation details</summary>
+                    <p>Integrated Google Maps, Places, and Directions APIs for stadium exploration, nearby place search,
+                        and
+                        route planning. Added live weather data, currency conversion, responsive layouts, and PWA
+                        support
+                        with a service worker for offline static assets.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Vanilla JavaScript, ES Modules, HTML, CSS, Google
+                        Maps
+                        API, Google Places API, Google Directions API, Open-Meteo API, Frankfurter API, PWA</p>
+                </details>
             </article>
         </div>
     </section>

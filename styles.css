@@ -11,6 +11,8 @@ body {
 body.minimal-home {
     --cv-orange: #f0a22e;
     --cv-orange-ink: #845209;
+    --link-colour: #1b428a;
+    --link-hover-colour: #122e64;
     color: #101010;
     background: #e9e9e9;
     font-family: "Times New Roman", Times, serif;
@@ -99,16 +101,12 @@ li {
 }
 
 .secondary-action {
-    color: #5f5147;
+    color: var(--link-colour);
 }
 
 .featured-project-link {
     margin: 0.65rem 0 0;
     font-size: 1.08rem;
-}
-
-.featured-project-link a {
-    font-weight: 700;
 }
 
 .minimal-education {
@@ -123,7 +121,7 @@ li {
 }
 
 .minimal-education a {
-    color: inherit;
+    color: var(--link-colour);
 }
 
 .stack-section h1 {
@@ -180,12 +178,25 @@ li {
 
 .project-heading {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 0.8rem;
 }
 
-.project-heading h3 {
+.project-label {
+    padding: 0.15rem 0.5rem;
+    border: 1px solid #e7d5b9;
+    border-radius: 0.3rem;
+    background: #f3eadc;
+    color: #806039;
+    font-size: 0.78rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.project-heading h2 {
     margin: 0;
+    font-size: 1.35rem;
 }
 
 .project-entry p {
@@ -193,11 +204,16 @@ li {
 }
 
 .project-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 auto;
-    color: #7a7069;
+    width: 2.1rem;
+    height: 2.1rem;
+    background: var(--cv-orange);
+    color: #121212;
     font-size: 0.88rem;
     font-weight: 700;
-    min-width: 2.1rem;
 }
 
 .project-summary {
@@ -210,15 +226,57 @@ li {
     color: #4d4d4d;
 }
 
+.project-contribution {
+    color: #383838;
+}
+
+.project-decisions-heading {
+    width: fit-content;
+    margin: 0.85rem 0 0;
+    padding: 0.12rem 0.4rem;
+    background: #dedede;
+    font-size: 1rem;
+}
+
+.project-decisions {
+    display: grid;
+    gap: 0.3rem;
+    margin-top: 0.35rem;
+}
+
+.project-details {
+    margin-top: 0.9rem;
+}
+
+.project-details summary {
+    width: fit-content;
+    padding: 0.18rem 0.55rem;
+    border-radius: 0.3rem;
+    background: #dedede;
+    color: #505050;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.project-details summary:hover {
+    background: #d4d4d4;
+}
+
+.project-details summary:focus-visible {
+    outline: 2px solid #777777;
+    outline-offset: 3px;
+}
+
+.project-details[open] summary {
+    margin-bottom: 0.65rem;
+}
+
 .project-links {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem 1rem;
     margin-top: 0.75rem;
-}
-
-.project-links a {
-    font-weight: 700;
 }
 
 .contact-lead {
@@ -261,13 +319,14 @@ ul {
 }
 
 a {
-    color: #5f5147;
+    color: var(--link-colour);
+    font-weight: 400;
     text-decoration: underline;
 }
 
 a:hover,
 a:focus-visible {
-    color: #2f2925;
+    color: var(--link-hover-colour);
 }
 
 .minimal-nav {
