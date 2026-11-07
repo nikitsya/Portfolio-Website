@@ -4,7 +4,8 @@
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Nikita Smiichyk - Projects</title>
-    <meta content="Projects page for Nikita Smiichyk portfolio." name="description"/>
+    <meta content="Backend and IoT projects by Nikita Smiichyk, including Billing Platform API, UniStow, and TempSafe, with live demos and GitHub repositories."
+          name="description"/>
     <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg" rel="apple-touch-icon"/>
     <link href="../styles.css?v=20261107" rel="stylesheet"/>
@@ -15,7 +16,7 @@
 <main class="minimal-layout">
     <section class="minimal-section">
         <h1>Projects</h1>
-        <p class="minimal-lead">Selected backend and API-focused software projects.</p>
+        <p class="minimal-lead">Selected backend, API, and IoT projects.</p>
 
         <div class="projects-list">
             <article class="project-entry">
@@ -23,8 +24,8 @@
                     <span class="project-number">01</span>
                     <h3>Billing Platform API</h3>
                 </div>
-                <p class="project-summary">Stripe-inspired billing platform with a Java/Spring Boot REST API,
-                    PostgreSQL database, and separately deployed frontend.</p>
+                <p class="project-summary">A billing backend for managing subscriptions and payments, built with
+                    Java, Spring Boot, and PostgreSQL, with a separately deployed frontend.</p>
                 <p>The backend exposes REST APIs for customers, products, prices, subscriptions, and payment intents. It
                     implements subscription lifecycle rules, payment-intent state transitions, input validation,
                     structured API error responses, and database constraints. Schema changes are managed with Flyway,
@@ -45,6 +46,46 @@
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">02</span>
+                    <h3>UniStow</h3>
+                </div>
+                <p class="project-summary">Campus locker prototype with a Python/FastAPI booking service,
+                    Stripe Checkout in test mode, and a physical locker controlled by a Raspberry Pi.</p>
+                <p>Built the reservation and payment flow with PostgreSQL, verified Stripe webhook signatures,
+                    and tested duplicate and out-of-order notifications. Unlocking is restricted to the renter
+                    during the paid period. PubNub carries opening commands and door events between the web
+                    application and the Raspberry Pi. The application is hosted on AWS EC2 behind Nginx.</p>
+                <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, PostgreSQL, Stripe Checkout,
+                    PubNub, Raspberry Pi, unittest, Docker, AWS EC2, Nginx</p>
+                <div class="project-links">
+                    <a href="https://unistow.app" rel="noreferrer" target="_blank">unistow.app</a>
+                    <a href="https://github.com/nikitsya/UniStow" rel="noreferrer"
+                       target="_blank">View on GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-entry">
+                <div class="project-heading">
+                    <span class="project-number">03</span>
+                    <h3>TempSafe</h3>
+                </div>
+                <p class="project-summary">Temperature monitoring for a prototype medication box, with a
+                    Python/FastAPI backend, MQTT readings, and a web dashboard.</p>
+                <p>Developed the backend, database, and tests in a team of three. The service validates incoming
+                    readings and acknowledges them only after MySQL has stored them. Device retries preserve
+                    the original measurement without creating duplicates, with pytest coverage for conflicting
+                    readings and failed writes. The dashboard and API are hosted on AWS EC2 behind Nginx.</p>
+                <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, MQTT, SQLAlchemy, MySQL,
+                    pytest, Docker, AWS EC2, Nginx</p>
+                <div class="project-links">
+                    <a href="https://tempsafe.app" rel="noreferrer" target="_blank">tempsafe.app</a>
+                    <a href="https://github.com/nikitsya/TempSafe" rel="noreferrer"
+                       target="_blank">View on GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-entry">
+                <div class="project-heading">
+                    <span class="project-number">04</span>
                     <h3>Supermarket Store System</h3>
                 </div>
                 <p class="project-summary">Collaborative Java client-server application for managing supermarket
@@ -63,7 +104,7 @@
 
             <article class="project-entry">
                 <div class="project-heading">
-                    <span class="project-number">03</span>
+                    <span class="project-number">05</span>
                     <h3>World Cup 2026 Mexico Guide</h3>
                 </div>
                 <p class="project-summary">Interactive API-driven travel guide for visitors to Mexico during the FIFA
