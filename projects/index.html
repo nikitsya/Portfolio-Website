@@ -174,8 +174,9 @@
                     <span class="project-label">Group project</span>
                 </div>
                 <p class="project-summary">Manages supermarket departments, products, stock, prices and images.</p>
-                <p class="project-contribution"><strong>My contribution:</strong> Contributed to a team-built Java
-                    client–server application.</p>
+                <p class="project-contribution"><strong>My contribution:</strong> Built the product module
+                    (validation, JDBC CRUD and image upload/retrieval) and the multithreaded TCP server.
+                    Wrote tests for product persistence and client–server flows.</p>
                 <h3 class="project-decisions-heading">Key technical decisions</h3>
                 <ul class="project-decisions">
                     <li><strong>Concurrent clients:</strong> A multithreaded server handles parallel connections.</li>
@@ -189,11 +190,13 @@
                 </div>
                 <details class="project-details">
                     <summary>Implementation details</summary>
-                    <p>Developed as part of a team using a custom JSON protocol over TCP. The system uses a
-                        multithreaded
-                        server to handle concurrent clients, DAO-based persistence with JDBC and MySQL, structured
-                        success/error responses, image upload and retrieval, and automated tests covering validation,
-                        persistence, routing, protocol handling, and file transfers.</p>
+                    <p>I implemented the product model with sale and discount validation, its MySQL schema,
+                        JDBC DAO, JSON conversion and client/server CRUD handlers. For product images, I added
+                        upload and retrieval, keeping image BLOBs out of metadata-only queries.</p>
+                    <p>I built the socket server with an ExecutorService to handle concurrent clients, extracted
+                        shared client request helpers, and added server-side error logging. My tests cover product
+                        validation, persistence and image retrieval, plus client/server behaviour for invalid JSON,
+                        valid requests and disconnects.</p>
                     <p class="project-tech"><strong>Tech:</strong> Java 17, Maven, MySQL, JDBC, Jackson, TCP sockets,
                         ExecutorService, JUnit 5</p>
                 </details>

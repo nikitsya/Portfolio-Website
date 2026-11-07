@@ -188,23 +188,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="3648000" />
-    </task>
-    <task id="LOCAL-00038" summary="Update book files">
-      <option name="closed" value="true" />
-      <created>1778706546479</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1778706546479</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Add icons to the book page">
-      <option name="closed" value="true" />
-      <created>1778706757937</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1778706757937</updated>
+      <workItem from="1794019053202" duration="4028000" />
     </task>
     <task id="LOCAL-00040" summary="Update book and page">
       <option name="closed" value="true" />
@@ -582,7 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794022649316</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Add icons to contact methods">
+      <option name="closed" value="true" />
+      <created>1794022808184</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1794022808184</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Align desktop navigation with the content container">
+      <option name="closed" value="true" />
+      <created>1794022878171</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1794022878171</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update tech stack details" />
-    <MESSAGE value="Refine tech stack page layout" />
     <MESSAGE value="Refine contact page layout" />
     <MESSAGE value="Move project link above CV actions" />
     <MESSAGE value="Add cache busting for site assets" />
@@ -625,6 +623,8 @@
     <MESSAGE value="Style Download CV as a grey action button" />
     <MESSAGE value="Add an external link icon to Billing Platform" />
     <MESSAGE value="Add transparent icons to every tech stack item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add transparent icons to every tech stack item" />
+    <MESSAGE value="Add icons to contact methods" />
+    <MESSAGE value="Align desktop navigation with the content container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Align desktop navigation with the content container" />
   </component>
 </project>
