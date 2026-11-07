@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Restructure projects for quicker scanning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,15 +188,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="2293000" />
-    </task>
-    <task id="LOCAL-00031" summary="Reformat code">
-      <option name="closed" value="true" />
-      <created>1774741111243</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1774741111243</updated>
+      <workItem from="1794019053202" duration="2700000" />
     </task>
     <task id="LOCAL-00032" summary="Remove Supermarket Management System project from portfolio">
       <option name="closed" value="true" />
@@ -586,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794020072494</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Restructure projects for quicker scanning&#10;&#10;Highlight each project's purpose, contribution and technical decisions.&#10;Move implementation details into collapsible sections and label group&#10;projects to clarify individual responsibilities.&#10;&#10;Add orange number badges, subtle highlights and regular-weight blue&#10;links. Point the backend API link to the ping endpoint and refresh&#10;stylesheet versions.">
+      <option name="closed" value="true" />
+      <created>1794021391224</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1794021391224</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update homepage backend profile description" />
     <MESSAGE value="Improve homepage CV and project calls to action" />
     <MESSAGE value="Reorder portfolio navigation links" />
     <MESSAGE value="Extract shared site navigation partial" />
@@ -629,6 +624,7 @@
     <MESSAGE value="Add Python projects and skills to the portfolio" />
     <MESSAGE value="Version favicon URLs to refresh cached icons" />
     <MESSAGE value="Redesign the favicon with a split white N" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesign the favicon with a split white N" />
+    <MESSAGE value="Restructure projects for quicker scanning&#10;&#10;Highlight each project's purpose, contribution and technical decisions.&#10;Move implementation details into collapsible sections and label group&#10;projects to clarify individual responsibilities.&#10;&#10;Add orange number badges, subtle highlights and regular-weight blue&#10;links. Point the backend API link to the ping endpoint and refresh&#10;stylesheet versions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructure projects for quicker scanning&#10;&#10;Highlight each project's purpose, contribution and technical decisions.&#10;Move implementation details into collapsible sections and label group&#10;projects to clarify individual responsibilities.&#10;&#10;Add orange number badges, subtle highlights and regular-weight blue&#10;links. Point the backend API link to the ping endpoint and refresh&#10;stylesheet versions." />
   </component>
 </project>

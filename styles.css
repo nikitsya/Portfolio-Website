@@ -272,6 +272,31 @@ li {
     margin-bottom: 0.65rem;
 }
 
+.project-screenshot {
+    margin: 0.8rem 0 1rem;
+}
+
+.project-screenshot a {
+    display: block;
+}
+
+.project-screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+}
+
+.project-screenshot-mobile {
+    max-width: 19.5rem;
+}
+
+.project-screenshot figcaption {
+    margin-top: 0.4rem;
+    color: #606060;
+    font-size: 0.85rem;
+}
+
 .project-links {
     display: flex;
     flex-wrap: wrap;
