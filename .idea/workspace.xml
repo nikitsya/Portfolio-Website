@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Group Python, Kotlin and C++ under Additional Languages" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.docx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cv/Nikita_Smiichyk_CV.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,15 +182,8 @@
       <workItem from="1789676693365" duration="5000" />
       <workItem from="1790271167757" duration="208000" />
       <workItem from="1793061203274" duration="72000" />
-      <workItem from="1793061295676" duration="359000" />
-    </task>
-    <task id="LOCAL-00022" summary="add GitHub projects link and CI/CD note to Projects page">
-      <option name="closed" value="true" />
-      <created>1773700867993</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1773700867993</updated>
+      <workItem from="1793061295676" duration="572000" />
+      <workItem from="1794014388026" duration="824000" />
     </task>
     <task id="LOCAL-00023" summary="reformat code">
       <option name="closed" value="true" />
@@ -573,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793061408033</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Refine CV profile and highlight additional programming languages">
+      <option name="closed" value="true" />
+      <created>1793061862345</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1793061862345</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change background" />
     <MESSAGE value="Add books catalogue and Prirodnaya Sekta page" />
     <MESSAGE value="Update book page intro" />
     <MESSAGE value="Update homepage backend developer introduction" />
@@ -616,6 +619,7 @@
     <MESSAGE value="Bump site asset cache version" />
     <MESSAGE value="Move mobile navigation to top" />
     <MESSAGE value="Group Python, Kotlin and C++ under Additional Languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Group Python, Kotlin and C++ under Additional Languages" />
+    <MESSAGE value="Refine CV profile and highlight additional programming languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refine CV profile and highlight additional programming languages" />
   </component>
 </project>
