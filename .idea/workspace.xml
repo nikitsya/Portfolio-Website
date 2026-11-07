@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Reformat code" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Match favicon colours to the CV orange accent" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,22 +181,7 @@
       <workItem from="1793061203274" duration="72000" />
       <workItem from="1793061295676" duration="572000" />
       <workItem from="1794014388026" duration="887000" />
-    </task>
-    <task id="LOCAL-00025" summary="Style navigation links as square buttons">
-      <option name="closed" value="true" />
-      <created>1774732601586</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1774732601586</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Improve tech stack page structure and readability">
-      <option name="closed" value="true" />
-      <created>1774733918074</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1774733918074</updated>
+      <workItem from="1794015603261" duration="235000" />
     </task>
     <task id="LOCAL-00027" summary="Switch tech stack wording to British English">
       <option name="closed" value="true" />
@@ -574,7 +559,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794015272919</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Add CV orange accents to the button and navigation">
+      <option name="closed" value="true" />
+      <created>1794015645895</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1794015645895</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Match favicon colours to the CV orange accent">
+      <option name="closed" value="true" />
+      <created>1794015828908</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1794015828908</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,8 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update homepage backend developer introduction" />
-    <MESSAGE value="Update portfolio tech stack" />
     <MESSAGE value="Update portfolio projects and billing platform links" />
     <MESSAGE value="Update CV" />
     <MESSAGE value="add docx cv file" />
@@ -617,6 +616,8 @@
     <MESSAGE value="Refine CV profile and highlight additional programming languages" />
     <MESSAGE value="Highlight UniStow and TempSafe in the CV" />
     <MESSAGE value="Reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat code" />
+    <MESSAGE value="Add CV orange accents to the button and navigation" />
+    <MESSAGE value="Match favicon colours to the CV orange accent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Match favicon colours to the CV orange accent" />
   </component>
 </project>
