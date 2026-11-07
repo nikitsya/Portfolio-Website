@@ -225,6 +225,27 @@ li {
     font-size: 1.35rem;
 }
 
+.project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem 0.8rem;
+    margin: 0.75rem 0 0.85rem;
+    padding: 0;
+    list-style: none;
+}
+
+.project-stack li {
+    display: flex;
+}
+
+.project-stack img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
 .project-entry p {
     margin: 0.55rem 0 0;
 }
