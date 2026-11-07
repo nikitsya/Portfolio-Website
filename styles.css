@@ -354,8 +354,18 @@ li {
 }
 
 .contact-row h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
     color: #2f2f2f;
     font-size: 1.03rem;
+}
+
+.contact-icon {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
 }
 
 .contact-links {

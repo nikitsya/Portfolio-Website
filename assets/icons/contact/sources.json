@@ -1,0 +1,9 @@
+{
+  "mail.svg": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/mail.svg",
+  "file-text.svg": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-text.svg",
+  "linkedin.svg": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg",
+  "licences": [
+    "../stack/LUCIDE-LICENSE.txt",
+    "../stack/DEVICON-LICENSE.txt"
+  ]
+}
