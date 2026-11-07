@@ -7,7 +7,8 @@
     <title>Книги - Nikita Smiichyk</title>
     <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg" rel="apple-touch-icon"/>
-    <meta content="Книги Nikita Smiichyk: рукопись Дом без дверей и психологическая книга Природная секта." name="description"/>
+    <meta content="Книги Nikita Smiichyk: рукопись Дом без дверей и психологическая книга Природная секта."
+          name="description"/>
     <style>
         :root {
             --paper: #eee4cf;
@@ -41,9 +42,8 @@
             pointer-events: none;
             content: "";
             opacity: 0.42;
-            background-image:
-                linear-gradient(rgba(75, 31, 45, 0.075) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(75, 31, 45, 0.065) 1px, transparent 1px);
+            background-image: linear-gradient(rgba(75, 31, 45, 0.075) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(75, 31, 45, 0.065) 1px, transparent 1px);
             background-size: 38px 38px;
         }
 
@@ -176,9 +176,8 @@
             height: auto;
             border-radius: 2px 12px 12px 2px;
             object-fit: contain;
-            box-shadow:
-                0 1.15rem 2.2rem var(--shadow),
-                -8px 0 0 rgba(75, 31, 45, 0.88);
+            box-shadow: 0 1.15rem 2.2rem var(--shadow),
+            -8px 0 0 rgba(75, 31, 45, 0.88);
             transition: transform 360ms ease, box-shadow 360ms ease;
         }
 
@@ -274,32 +273,32 @@
 </head>
 <body>
 <main class="books-home">
-    <section class="home-copy" aria-label="Книги">
+    <section aria-label="Книги" class="home-copy">
         <h1>Книги</h1>
         <p class="subtitle">Две книги о памяти, семейной системе и возвращении права быть собой.</p>
         <p class="intro">Выберите, с чего начать: с личной рукописи или психологической книги.</p>
 
-        <nav class="book-links" aria-label="Выбор книги">
+        <nav aria-label="Выбор книги" class="book-links">
             <a class="book-link" href="dom-bez-dverey/">
                 <span>
                     <strong>Дом без дверей</strong>
                     <span>рукопись</span>
                 </span>
-                <span class="arrow" aria-hidden="true">→</span>
+                <span aria-hidden="true" class="arrow">→</span>
             </a>
             <a class="book-link secondary" href="prirodnaya-sekta/">
                 <span>
                     <strong>Природная секта</strong>
                     <span>психологическая книга</span>
                 </span>
-                <span class="arrow" aria-hidden="true">→</span>
+                <span aria-hidden="true" class="arrow">→</span>
             </a>
         </nav>
     </section>
 
-    <div class="cover-stack" aria-hidden="true">
-        <img src="assets/img/dom-bez-dverey-cover.png" alt=""/>
-        <img src="assets/img/prirodnaya-sekta.png" alt=""/>
+    <div aria-hidden="true" class="cover-stack">
+        <img alt="" src="assets/img/dom-bez-dverey-cover.png"/>
+        <img alt="" src="assets/img/prirodnaya-sekta.png"/>
     </div>
 </main>
 </body>
