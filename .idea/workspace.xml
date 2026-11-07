@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Use a diagonal arrow for the Billing Platform link">
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001985115451986" />
-      <entry key="MS500" value="1.3345627025291895" />
-      <entry key="S2" value="2.704875659398019" />
-      <entry key="S5" value="3.4113826158318385" />
-      <entry key="S10" value="3.8250619793156684" />
-      <entry key="S30" value="4.5764522765110165" />
-      <entry key="S60" value="5.29363837435391" />
-      <entry key="M2" value="6.316287280899619" />
-      <entry key="M5" value="7.852257866369149" />
-      <entry key="M10" value="8.751701412003445" />
-      <entry key="M15" value="9.122201052138077" />
-      <entry key="M30" value="9.536280524461537" />
-      <entry key="H1" value="9.761522537646286" />
-      <entry key="H2" value="9.879052031387948" />
-      <entry key="H4" value="9.939091643405037" />
-      <entry key="D1" value="9.989787668127608" />
-      <entry key="W1" value="9.998539595041843" />
+      <entry key="MS100" value="1.8012288992088346" />
+      <entry key="MS500" value="2.276653568724562" />
+      <entry key="S2" value="3.6750433595713354" />
+      <entry key="S5" value="4.396282755607881" />
+      <entry key="S10" value="4.816587122742373" />
+      <entry key="S30" value="5.573069895066858" />
+      <entry key="S60" value="6.29168179175527" />
+      <entry key="M2" value="7.315119891000582" />
+      <entry key="M5" value="8.851677325654638" />
+      <entry key="M10" value="9.7513778864017" />
+      <entry key="M15" value="10.121976236137217" />
+      <entry key="M30" value="10.53616301325741" />
+      <entry key="H1" value="10.761462394082011" />
+      <entry key="H2" value="10.879021597492327" />
+      <entry key="H4" value="10.93907633396494" />
+      <entry key="D1" value="10.98978510353788" />
+      <entry key="W1" value="10.998539228350868" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.0462801975277803E-292" />
-      <entry key="MS500" value="4.594021467572069E-59" />
-      <entry key="S2" value="2.603444087655676E-15" />
-      <entry key="S5" value="1.4662880731935943E-6" />
-      <entry key="S10" value="0.0012109038249149247" />
-      <entry key="S30" value="0.1065867492454234" />
-      <entry key="S60" value="0.32647626138116603" />
-      <entry key="M2" value="0.5713810124436809" />
-      <entry key="M5" value="0.7994113714306506" />
-      <entry key="M10" value="0.8940980770758041" />
-      <entry key="M15" value="0.9280900298753605" />
-      <entry key="M30" value="0.9633742937588488" />
-      <entry key="H1" value="0.9815163237352948" />
-      <entry key="H2" value="0.9907150567823705" />
-      <entry key="H4" value="0.9953467017991117" />
-      <entry key="D1" value="0.9992229423163379" />
-      <entry key="W1" value="0.9998889547731954" />
+      <entry key="MS100" value="1.6392134273476466E-292" />
+      <entry key="MS500" value="4.394678414328646E-59" />
+      <entry key="S2" value="2.5747304851153522E-15" />
+      <entry key="S5" value="1.4597978176442679E-6" />
+      <entry key="S10" value="0.001208220930808711" />
+      <entry key="S30" value="0.10650797271262936" />
+      <entry key="S60" value="0.32635559243351325" />
+      <entry key="M2" value="0.5712754085671052" />
+      <entry key="M5" value="0.7993522685768399" />
+      <entry key="M10" value="0.8940650248034759" />
+      <entry key="M15" value="0.9280671571621016" />
+      <entry key="M30" value="0.9633624225399815" />
+      <entry key="H1" value="0.9815102763292806" />
+      <entry key="H2" value="0.9907120047366346" />
+      <entry key="H4" value="0.9953451686408257" />
+      <entry key="D1" value="0.99922268579468" />
+      <entry key="W1" value="0.9998889181028146" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9728343284670715" />
-      <entry key="MS500" value="1.2483066257315814" />
-      <entry key="S2" value="2.422727022544951" />
-      <entry key="S5" value="3.2082470288531" />
-      <entry key="S10" value="3.6929105775954736" />
-      <entry key="S30" value="4.617325590723728" />
-      <entry key="S60" value="5.578309204784012" />
-      <entry key="M2" value="6.862570548423999" />
-      <entry key="M5" value="8.640120662283678" />
-      <entry key="M10" value="9.639708475135174" />
-      <entry key="M15" value="10.04615377268705" />
-      <entry key="M30" value="10.497546093809023" />
-      <entry key="H1" value="10.741974132335168" />
-      <entry key="H2" value="10.869232086305157" />
-      <entry key="H4" value="10.934170179103159" />
-      <entry key="D1" value="10.988965823208037" />
-      <entry key="W1" value="10.998422149357149" />
+      <entry key="MS100" value="1.5803781540097213" />
+      <entry key="MS500" value="2.150748460066845" />
+      <entry key="S2" value="3.3849774800080574" />
+      <entry key="S5" value="4.189619994281057" />
+      <entry key="S10" value="4.682512904493314" />
+      <entry key="S30" value="5.613173916742251" />
+      <entry key="S60" value="6.575877794776688" />
+      <entry key="M2" value="7.861117371101547" />
+      <entry key="M5" value="9.639407939569715" />
+      <entry key="M10" value="10.6393151552623" />
+      <entry key="M15" value="11.045881541007233" />
+      <entry key="M30" value="11.49740441483025" />
+      <entry key="H1" value="11.741901786635692" />
+      <entry key="H2" value="11.869195521362563" />
+      <entry key="H4" value="11.934151796591957" />
+      <entry key="D1" value="11.988962745387003" />
+      <entry key="W1" value="11.998421709321574" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -187,15 +188,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="3017000" />
-    </task>
-    <task id="LOCAL-00036" summary="Update CV">
-      <option name="closed" value="true" />
-      <created>1778429684583</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1778429684583</updated>
+      <workItem from="1794019053202" duration="3329000" />
     </task>
     <task id="LOCAL-00037" summary="Add standalone book page with PDF and EPUB formats">
       <option name="closed" value="true" />
@@ -581,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794022039275</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Add an external link icon to Billing Platform">
+      <option name="closed" value="true" />
+      <created>1794022213794</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1794022213794</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="improve supermarket and World Cup project descriptions" />
     <MESSAGE value="Improve projects page visual hierarchy" />
     <MESSAGE value="update tech stack details" />
     <MESSAGE value="Refine tech stack page layout" />
@@ -624,6 +624,7 @@
     <MESSAGE value="Include bottom navigation in the UniStow screenshot" />
     <MESSAGE value="Remove the border from group project labels" />
     <MESSAGE value="Style Download CV as a grey action button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style Download CV as a grey action button" />
+    <MESSAGE value="Add an external link icon to Billing Platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add an external link icon to Billing Platform" />
   </component>
 </project>
