@@ -1,14 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="N favicon">
-    <rect width="64" height="64" rx="10" fill="#f0a22e"/>
-    <text
-            x="32"
-            y="45"
-            fill="#4e3b30"
-            font-family="Times New Roman, serif"
-            font-size="40"
-            font-weight="700"
-            text-anchor="middle"
-    >
-        N
-    </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="logo-title">
+    <title id="logo-title">Nikita Smiichyk — surface and structure</title>
+    <rect width="100" height="100" rx="22" fill="#111111"/>
+    <g fill="#ffffff" transform="translate(10 10) scale(0.8)">
+        <path d="M8 92V8H28L59 48L46 65L28 42V92Z"/>
+        <path
+                fill-rule="evenodd"
+                d="M72 8H92V92H72L51 65L64 48L72 58Z
+                   M79 15H85V85H76L61 65L64 61L79 80Z"
+        />
+    </g>
 </svg>

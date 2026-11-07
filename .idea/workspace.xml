@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Redesign the favicon with a split white N">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/dom-bez-dverey/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/prirodnaya-sekta/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/prirodnaya-sekta/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
@@ -189,22 +196,8 @@
       <workItem from="1794015603261" duration="235000" />
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
-    </task>
-    <task id="LOCAL-00028" summary="Add CV view and download links to home and contact pages">
-      <option name="closed" value="true" />
-      <created>1774739363682</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1774739363682</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Add project entries to the projects page">
-      <option name="closed" value="true" />
-      <created>1774740797941</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1774740797941</updated>
+      <workItem from="1794016183539" duration="303000" />
+      <workItem from="1794019053202" duration="1011000" />
     </task>
     <task id="LOCAL-00030" summary="Match project separators to the tech stack layout">
       <option name="closed" value="true" />
@@ -582,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794016042903</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Add Python projects and skills to the portfolio">
+      <option name="closed" value="true" />
+      <created>1794016294434</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1794016294435</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Version favicon URLs to refresh cached icons">
+      <option name="closed" value="true" />
+      <created>1794016405313</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1794016405313</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,9 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update CV" />
-    <MESSAGE value="add docx cv file" />
-    <MESSAGE value="update cv" />
     <MESSAGE value="Update homepage backend profile description" />
     <MESSAGE value="Improve homepage CV and project calls to action" />
     <MESSAGE value="Reorder portfolio navigation links" />
@@ -625,6 +631,9 @@
     <MESSAGE value="Add CV orange accents to the button and navigation" />
     <MESSAGE value="Match favicon colours to the CV orange accent" />
     <MESSAGE value="Prioritise Java skills and clarify billing in CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prioritise Java skills and clarify billing in CV" />
+    <MESSAGE value="Add Python projects and skills to the portfolio" />
+    <MESSAGE value="Version favicon URLs to refresh cached icons" />
+    <MESSAGE value="Redesign the favicon with a split white N" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign the favicon with a split white N" />
   </component>
 </project>
