@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Use a diagonal arrow for the Billing Platform link">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,39 +187,7 @@
       <workItem from="1794015863100" duration="238000" />
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
-      <workItem from="1794019053202" duration="2700000" />
-    </task>
-    <task id="LOCAL-00032" summary="Remove Supermarket Management System project from portfolio">
-      <option name="closed" value="true" />
-      <created>1775685968611</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1775685968611</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Update cv">
-      <option name="closed" value="true" />
-      <created>1775690995500</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1775690995500</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Update CV">
-      <option name="closed" value="true" />
-      <created>1776371932029</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1776371932029</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Add screenshots section to README">
-      <option name="closed" value="true" />
-      <created>1776372064588</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1776372064588</updated>
+      <workItem from="1794019053202" duration="3017000" />
     </task>
     <task id="LOCAL-00036" summary="Update CV">
       <option name="closed" value="true" />
@@ -582,7 +549,39 @@
       <option name="project" value="LOCAL" />
       <updated>1794021391224</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Add collapsible project screenshot galleries">
+      <option name="closed" value="true" />
+      <created>1794021784688</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1794021784688</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Include bottom navigation in the UniStow screenshot">
+      <option name="closed" value="true" />
+      <created>1794021896706</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1794021896706</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Remove the border from group project labels">
+      <option name="closed" value="true" />
+      <created>1794021950250</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1794021950251</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Style Download CV as a grey action button">
+      <option name="closed" value="true" />
+      <created>1794022039275</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1794022039275</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,10 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improve homepage CV and project calls to action" />
-    <MESSAGE value="Reorder portfolio navigation links" />
-    <MESSAGE value="Extract shared site navigation partial" />
-    <MESSAGE value="update Billing Platform project description" />
     <MESSAGE value="improve supermarket and World Cup project descriptions" />
     <MESSAGE value="Improve projects page visual hierarchy" />
     <MESSAGE value="update tech stack details" />
@@ -625,6 +620,10 @@
     <MESSAGE value="Version favicon URLs to refresh cached icons" />
     <MESSAGE value="Redesign the favicon with a split white N" />
     <MESSAGE value="Restructure projects for quicker scanning&#10;&#10;Highlight each project's purpose, contribution and technical decisions.&#10;Move implementation details into collapsible sections and label group&#10;projects to clarify individual responsibilities.&#10;&#10;Add orange number badges, subtle highlights and regular-weight blue&#10;links. Point the backend API link to the ping endpoint and refresh&#10;stylesheet versions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure projects for quicker scanning&#10;&#10;Highlight each project's purpose, contribution and technical decisions.&#10;Move implementation details into collapsible sections and label group&#10;projects to clarify individual responsibilities.&#10;&#10;Add orange number badges, subtle highlights and regular-weight blue&#10;links. Point the backend API link to the ping endpoint and refresh&#10;stylesheet versions." />
+    <MESSAGE value="Add collapsible project screenshot galleries" />
+    <MESSAGE value="Include bottom navigation in the UniStow screenshot" />
+    <MESSAGE value="Remove the border from group project labels" />
+    <MESSAGE value="Style Download CV as a grey action button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style Download CV as a grey action button" />
   </component>
 </project>

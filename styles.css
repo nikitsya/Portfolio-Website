@@ -124,6 +124,13 @@ li {
     font-size: 1.08rem;
 }
 
+.external-link-icon {
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    vertical-align: -0.08em;
+}
+
 .minimal-education {
     margin-top: 1.6rem;
     color: #505050;
