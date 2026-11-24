@@ -4,8 +4,8 @@
     <g fill="#ffffff" transform="translate(10 10) scale(0.8)">
         <path d="M8 92V8H28L59 48L46 65L28 42V92Z"/>
         <path
-                fill-rule="evenodd"
-                d="M72 8H92V92H72L51 65L64 48L72 58Z
+            fill-rule="evenodd"
+            d="M72 8H92V92H72L51 65L64 48L72 58Z
                    M79 15H85V85H76L61 65L64 61L79 80Z"
         />
     </g>

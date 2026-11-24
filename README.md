@@ -6,8 +6,11 @@ My personal portfolio, showcasing backend, API and IoT projects, with screenshot
 
 Built with HTML, CSS and vanilla JavaScript.
 
-To preview locally, run `python3 -m http.server 8000` from the project folder and open [localhost:8000](http://localhost:8000).
+To preview locally, run `python3 -m http.server 8000` from the project folder and
+open [localhost:8000](http://localhost:8000).
 
-Pages have their own folders. Shared styles, scripts and images live in `assets/`, navigation in `partials/`, and the book section in `books/`. The old `book/` addresses redirect to `books/`. Previous screenshots are kept in `docs/screenshots/`.
+Pages have their own folders. Shared styles, scripts and images live in `assets/`, navigation in `partials/`, and the
+book section in `books/`. The old `book/` addresses redirect to `books/`. Previous screenshots are kept in
+`docs/screenshots/`.
 
 Run `python3 scripts/check_site.py` to check local links and assets.
