@@ -119,7 +119,10 @@ li {
     outline-offset: 2px;
 }
 
-.featured-project-link {
+.featured-project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
     margin: 0.65rem 0 0;
     font-size: 1.08rem;
 }
