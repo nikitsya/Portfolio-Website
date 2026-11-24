@@ -13,4 +13,7 @@ Pages have their own folders. Shared styles, scripts and images live in `assets/
 book section in `books/`. The old `book/` addresses redirect to `books/`. Previous screenshots are kept in
 `docs/screenshots/`.
 
+Icons are organised into `assets/icons/brands/`, `assets/icons/ui/` and `assets/icons/licences/`.
+Their original sources are recorded in `assets/icons/sources.json`.
+
 Run `python3 scripts/check_site.py` to check local links and assets.
