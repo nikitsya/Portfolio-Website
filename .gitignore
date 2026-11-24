@@ -1,0 +1,28 @@
+# Local IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Temporary files and editor backups
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+
+# Editable CV source; the published PDF remains tracked
+/assets/cv/*.docx
