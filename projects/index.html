@@ -8,7 +8,7 @@
           name="description"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="apple-touch-icon"/>
-    <link href="../styles.css?v=20261107-project-stack" rel="stylesheet"/>
+    <link href="../styles.css?v=20261124-unistow-gallery" rel="stylesheet"/>
 </head>
 <body class="minimal-home">
 <div data-navigation-src="../partials/site-navigation.html" data-site-navigation></div>
@@ -139,17 +139,71 @@
                 </div>
                 <details class="project-details project-screenshots">
                     <summary>Screenshots</summary>
-                    <figure class="project-screenshot project-screenshot-mobile">
-                        <a aria-label="Open UniStow screenshot at full size"
-                           href="../images/projects/unistow-lockers.jpg?v=20261107-navigation" rel="noreferrer"
-                           target="_blank">
-                            <img alt="Mobile locker selection with availability, daily prices and Lockers, My rentals and Contact navigation."
-                                 decoding="async" height="844"
-                                 loading="lazy" src="../images/projects/unistow-lockers.jpg?v=20261107-navigation"
-                                 width="390"/>
-                        </a>
-                        <figcaption>Locker selection on mobile</figcaption>
-                    </figure>
+                    <div class="project-screenshot-gallery">
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow locker selection screenshot at full size"
+                               href="../images/projects/unistow-lockers.png" rel="noreferrer" target="_blank">
+                                <img alt="Locker availability and daily prices, with Lockers, My rentals and Contact navigation."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-lockers.png" width="676"/>
+                            </a>
+                            <figcaption>1. Choose a locker</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow rental validation screenshot at full size"
+                               href="../images/projects/unistow-rental-validation.png" rel="noreferrer" target="_blank">
+                                <img alt="A six-day rental is rejected with a one-to-four-day validation message and a disabled reservation button."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-rental-validation.png" width="676"/>
+                            </a>
+                            <figcaption>2. Rental period validation</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow reservation screenshot at full size"
+                               href="../images/projects/unistow-reservation.png" rel="noreferrer" target="_blank">
+                                <img alt="A four-day rental for Locker 4 totals €4, with consent selected and the Reserve locker button enabled."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-reservation.png" width="676"/>
+                            </a>
+                            <figcaption>3. Reserve a locker</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow pending payment screenshot at full size"
+                               href="../images/projects/unistow-pending-payment.png" rel="noreferrer" target="_blank">
+                                <img alt="A pending reservation shows the rental end date, unpaid status and a Pay €4 button."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-pending-payment.png" width="676"/>
+                            </a>
+                            <figcaption>4. Reservation awaiting payment</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow Stripe Checkout screenshot at full size"
+                               href="../images/projects/unistow-stripe-checkout.png" rel="noreferrer" target="_blank">
+                                <img alt="Stripe Checkout in sandbox mode for a €4 UniStow rental, showing a test payment card."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-stripe-checkout.png" width="676"/>
+                            </a>
+                            <figcaption>5. Stripe Checkout — sandbox</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow active rental screenshot at full size"
+                               href="../images/projects/unistow-active-rental.png" rel="noreferrer" target="_blank">
+                                <img alt="An active paid rental shows a closed door, with Open locker and Finish rental controls."
+                                     decoding="async" height="1466" loading="lazy"
+                                     src="../images/projects/unistow-active-rental.png" width="676"/>
+                            </a>
+                            <figcaption>6. Active rental and locker controls</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open UniStow rental history with sample data at full size"
+                               href="../images/projects/unistow-rental-history-sample.png" rel="noreferrer" target="_blank">
+                                <img alt="My rentals with an active booking and illustrative completed rentals for different lockers, finished between 08:24 and 17:42."
+                                     decoding="async" height="1847" loading="lazy"
+                                     src="../images/projects/unistow-rental-history-sample.png" width="852"/>
+                            </a>
+                            <figcaption>7. My rentals — sample data</figcaption>
+                        </figure>
+                    </div>
                 </details>
                 <details class="project-details">
                     <summary>Implementation details</summary>

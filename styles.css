@@ -198,6 +198,7 @@ li {
 
 .projects-list {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     margin-top: 1.7rem;
 }
 
@@ -339,6 +340,21 @@ li {
 
 .project-screenshot-mobile {
     max-width: 19.5rem;
+}
+
+.project-screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+    align-items: start;
+    gap: 1.25rem 1rem;
+    max-width: 40rem;
+    margin: 0.8rem 0 1rem;
+}
+
+.project-screenshot-gallery .project-screenshot {
+    min-width: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .project-screenshot figcaption {

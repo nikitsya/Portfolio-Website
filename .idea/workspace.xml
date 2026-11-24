@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Reformat code" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add UniStow to featured homepage links">
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,14 +192,7 @@
       <workItem from="1794016146850" duration="29000" />
       <workItem from="1794016183539" duration="303000" />
       <workItem from="1794019053202" duration="5376000" />
-    </task>
-    <task id="LOCAL-00045" summary="Update portfolio tech stack">
-      <option name="closed" value="true" />
-      <created>1781295567193</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1781295567193</updated>
+      <workItem from="1795549215711" duration="534000" />
     </task>
     <task id="LOCAL-00046" summary="Update portfolio projects and billing platform links">
       <option name="closed" value="true" />
@@ -582,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794024439817</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Add UniStow to featured homepage links">
+      <option name="closed" value="true" />
+      <created>1795549258139</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1795549258140</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bump site asset cache version" />
     <MESSAGE value="Move mobile navigation to top" />
     <MESSAGE value="Group Python, Kotlin and C++ under Additional Languages" />
     <MESSAGE value="Refine CV profile and highlight additional programming languages" />
@@ -625,6 +628,7 @@
     <MESSAGE value="Add WebStorm and PyCharm to the tech stack" />
     <MESSAGE value="Simplify the contact page layout" />
     <MESSAGE value="Reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat code" />
+    <MESSAGE value="Add UniStow to featured homepage links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UniStow to featured homepage links" />
   </component>
 </project>
