@@ -10,7 +10,7 @@
     <meta content="Природная секта - психологическая книга о семейной системе, которой нужен виноватый."
           name="description"/>
     <link href="../../assets/css/site.css?v=20261124" rel="stylesheet"/>
-    <link href="../../assets/css/books.css?v=20261124-chapters" rel="stylesheet"/>
+    <link href="../../assets/css/books.css?v=20261124-sections" rel="stylesheet"/>
 </head>
 <body class="minimal-home book-page">
 <div data-navigation-src="../partials/navigation.html" data-site-navigation></div>
@@ -38,8 +38,10 @@
     </section>
 
     <section aria-labelledby="about-book" class="book-section">
-        <div class="book-section-content">
-            <h2 id="about-book">О книге</h2>
+        <details class="book-disclosure">
+            <summary>
+                <h2 id="about-book">О книге</h2>
+            </summary>
             <div>
                 <p class="section-copy">
                     Это не медицинская книга и не попытка поставить диагноз. Это карта разрушительной семейной системы:
@@ -48,11 +50,11 @@
                 </p>
                 <p class="quote">Понимание системы нужно не для оправдания системы.</p>
             </div>
-        </div>
+        </details>
     </section>
 
     <section aria-labelledby="chapters" class="book-section">
-        <details class="book-chapters">
+        <details class="book-disclosure">
             <summary>
                 <h2 id="chapters">Главы</h2>
             </summary>
@@ -75,8 +77,10 @@
     </section>
 
     <section aria-labelledby="read-online" class="book-section" id="reader">
-        <div class="book-section-content">
-            <h2 id="read-online">Читать</h2>
+        <details class="book-disclosure">
+            <summary>
+                <h2 id="read-online">Читать</h2>
+            </summary>
             <div>
                 <p class="section-copy quiet">
                     PDF можно читать прямо на странице. EPUB сохранён рядом для телефона, планшета или электронной
@@ -89,21 +93,21 @@
                     <a class="secondary-action" download href="../assets/epub/prirodnaya-sekta.epub">Скачать EPUB</a>
                 </div>
             </div>
-        </div>
-        <div class="reader-shell">
-            <object class="reader-frame" data="../assets/pdf/prirodnaya-sekta.pdf" type="application/pdf">
-                <p class="reader-fallback">
-                    Ваш браузер не показывает PDF внутри страницы.
-                    <a href="../assets/pdf/prirodnaya-sekta.pdf" rel="noreferrer" target="_blank">Откройте книгу
-                        отдельной вкладкой.</a>
-                </p>
-            </object>
-        </div>
+            <div class="reader-shell">
+                <object class="reader-frame" data="../assets/pdf/prirodnaya-sekta.pdf" type="application/pdf">
+                    <p class="reader-fallback">
+                        Ваш браузер не показывает PDF внутри страницы.
+                        <a href="../assets/pdf/prirodnaya-sekta.pdf" rel="noreferrer" target="_blank">Откройте книгу
+                            отдельной вкладкой.</a>
+                    </p>
+                </object>
+            </div>
+        </details>
     </section>
 
 </main>
 
-<script src="../assets/js/reader.js?v=20261124-chapters"></script>
+<script src="../assets/js/reader.js?v=20261124-sections"></script>
 <script src="../../assets/js/site.js?v=20260911d"></script>
 </body>
 </html>
