@@ -16,4 +16,6 @@ book section in `books/`. The old `book/` addresses redirect to `books/`. Previo
 Icons are organised into `assets/icons/brands/`, `assets/icons/ui/` and `assets/icons/licences/`.
 Their original sources are recorded in `assets/icons/sources.json`.
 
+Screenshots in `assets/images/projects/` are grouped by project: `billing-platform/`, `unistow/`, `tempsafe/` and `mexico-guide/`.
+
 Run `python3 scripts/check_site.py` to check local links and assets.
