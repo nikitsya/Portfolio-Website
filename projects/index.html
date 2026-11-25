@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Nikita Smiichyk - Projects</title>
     <meta
-        content="Backend and IoT projects by Nikita Smiichyk, including Billing Platform API, UniStow, and TempSafe, with live demos and GitHub repositories."
+        content="Backend, AI integration and IoT projects by Nikita Smiichyk, including Billing Platform with Ask AI, UniStow and TempSafe."
         name="description"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="icon" type="image/svg+xml"/>
     <link href="../favicon.svg?v=20261107-split-n" rel="apple-touch-icon"/>
@@ -17,13 +17,13 @@
 <main class="minimal-layout">
     <section class="minimal-section">
         <h1>Projects</h1>
-        <p class="minimal-lead">Selected backend, API, and IoT projects.</p>
+        <p class="minimal-lead">Selected backend, API, AI integration and IoT projects.</p>
 
         <div class="projects-list">
             <article class="project-entry">
                 <div class="project-heading">
                     <span class="project-number">01</span>
-                    <h2>Billing Platform API</h2>
+                    <h2>Billing Platform</h2>
                 </div>
                 <ul aria-label="Tech stack" class="project-stack" role="list">
                     <li><img alt="Java" height="22" src="../assets/icons/brands/java.svg" title="Java" width="22"/></li>
@@ -48,10 +48,13 @@
                     <li><img alt="Neon" height="22" src="../assets/icons/brands/neon.svg" title="Neon" width="22"/></li>
                     <li><img alt="JavaScript" height="22" src="../assets/icons/brands/javascript.svg" title="JavaScript"
                              width="22"/></li>
+                    <li><img alt="OpenAI Responses API" height="22" src="../assets/icons/ui/braces.svg"
+                             title="OpenAI Responses API" width="22"/></li>
                 </ul>
-                <p class="project-summary">Manages customers, subscriptions and payments through a billing API.</p>
+                <p class="project-summary">A billing platform for customers, subscriptions and payments, with an AI
+                    assistant that explains the project.</p>
                 <p class="project-contribution"><strong>What I built:</strong> Built the backend APIs, subscription
-                    rules and payment-intent workflows.</p>
+                    rules and payment-intent workflows, and integrated Ask AI into the web interface.</p>
                 <h3 class="project-decisions-heading">Key technical decisions</h3>
                 <ul class="project-decisions">
                     <li><strong>Explicit state transitions:</strong> Subscription lifecycle and payment-intent rules.
@@ -59,9 +62,12 @@
                     <li><strong>Validated data:</strong> Input validation, structured errors and database constraints.
                     </li>
                     <li><strong>Versioned schema:</strong> Flyway migrations for PostgreSQL.</li>
+                    <li><strong>AI answers with sources:</strong> OpenAI function calling retrieves relevant GitHub
+                        files, with links to the exact source revisions shown alongside each answer.</li>
                 </ul>
                 <div class="project-links">
                     <a href="https://billing.nikitsya.dev" rel="noreferrer" target="_blank">billing.nikitsya.dev</a>
+                    <a href="https://billing.nikitsya.dev/ask-ai/" rel="noreferrer" target="_blank">Try Ask AI</a>
                     <a href="https://github.com/nikitsya/Billing-Platform-Frontend" rel="noreferrer"
                        target="_blank">Frontend repo</a>
                     <a href="https://github.com/nikitsya/Billing-Platform-API" rel="noreferrer"
@@ -73,52 +79,65 @@
                     <summary>Screenshots</summary>
                     <figure class="project-screenshot">
                         <a aria-label="Open Billing Platform dashboard screenshot at full size"
-                           href="../assets/images/projects/billing-platform/billing-dashboard.png" rel="noreferrer"
+                           href="../assets/images/projects/billing-platform/billing-dashboard.png?v=20261125-ask-ai"
+                           rel="noreferrer"
                            target="_blank">
-                            <img alt="Billing dashboard with customer, product, price and subscription totals."
-                                 decoding="async" height="1650" loading="lazy"
-                                 src="../assets/images/projects/billing-platform/billing-dashboard.png" width="3024"/>
+                            <img alt="Billing dashboard with account totals and six navigation sections, including Ask AI."
+                                 decoding="async" height="1652" loading="lazy"
+                                 src="../assets/images/projects/billing-platform/billing-dashboard.png?v=20261125-ask-ai"
+                                 width="3024"/>
                         </a>
                         <figcaption>1. Billing dashboard</figcaption>
                     </figure>
                     <figure class="project-screenshot">
                         <a aria-label="Open Billing Platform customer directory and validation screenshot at full size"
-                           href="../assets/images/projects/billing-platform/billing-customers-validation.png"
+                           href="../assets/images/projects/billing-platform/billing-customers-validation.png?v=20261125-ask-ai"
                            rel="noreferrer"
                            target="_blank">
                             <img
                                 alt="Customer directory beside the create-customer form, showing validation for a required name."
-                                decoding="async" height="1650" loading="lazy"
-                                src="../assets/images/projects/billing-platform/billing-customers-validation.png"
+                                decoding="async" height="1652" loading="lazy"
+                                src="../assets/images/projects/billing-platform/billing-customers-validation.png?v=20261125-ask-ai"
                                 width="3024"/>
                         </a>
                         <figcaption>2. Customer directory and validation</figcaption>
                     </figure>
                     <figure class="project-screenshot">
                         <a aria-label="Open Billing Platform payment intents screenshot at full size"
-                           href="../assets/images/projects/billing-platform/billing-payment-intents.png"
+                           href="../assets/images/projects/billing-platform/billing-payment-intents.png?v=20261125-ask-ai"
                            rel="noreferrer"
                            target="_blank">
                             <img
                                 alt="Payment creation form and a list of payment intents with amounts, currencies, statuses and confirmation actions."
-                                decoding="async" height="1650" loading="lazy"
-                                src="../assets/images/projects/billing-platform/billing-payment-intents.png"
+                                decoding="async" height="1652" loading="lazy"
+                                src="../assets/images/projects/billing-platform/billing-payment-intents.png?v=20261125-ask-ai"
                                 width="3024"/>
                         </a>
                         <figcaption>3. Payment intents</figcaption>
                     </figure>
                     <figure class="project-screenshot">
-                        <a aria-label="Open Billing Platform payment price selection screenshot at full size"
-                           href="../assets/images/projects/billing-platform/billing-payment-price-selection.png"
-                           rel="noreferrer"
-                           target="_blank">
+                        <a aria-label="Open Billing Platform Ask AI start screen at full size"
+                           href="../assets/images/projects/billing-platform/billing-ask-ai.png"
+                           rel="noreferrer" target="_blank">
                             <img
-                                alt="Payment form with the price selector open, offering a manual amount or a predefined one-off setup fee."
-                                decoding="async" height="1650" loading="lazy"
-                                src="../assets/images/projects/billing-platform/billing-payment-price-selection.png"
+                                alt="Ask AI project assistant with suggested questions about the architecture, billing workflows and implementation."
+                                decoding="async" height="1652" loading="lazy"
+                                src="../assets/images/projects/billing-platform/billing-ask-ai.png"
                                 width="3024"/>
                         </a>
-                        <figcaption>4. One-off payment price selection</figcaption>
+                        <figcaption>4. Ask AI — explore the project</figcaption>
+                    </figure>
+                    <figure class="project-screenshot">
+                        <a aria-label="Open Billing Platform Ask AI answer with source links at full size"
+                           href="../assets/images/projects/billing-platform/billing-ask-ai-sources.png"
+                           rel="noreferrer" target="_blank">
+                            <img
+                                alt="An AI answer explaining project capabilities and limitations, followed by links to relevant backend and frontend files."
+                                decoding="async" height="1652" loading="lazy"
+                                src="../assets/images/projects/billing-platform/billing-ask-ai-sources.png"
+                                width="3024"/>
+                        </a>
+                        <figcaption>5. Ask AI — answer with repository sources</figcaption>
                     </figure>
                 </details>
                 <details class="project-details">
@@ -129,9 +148,14 @@
                         structured API error responses, and database constraints. Schema changes are managed with
                         Flyway,
                         and the backend is deployed on Render with PostgreSQL hosted on Neon.</p>
+                    <p>Ask AI uses the OpenAI Responses API to answer questions about the Java backend, browser
+                        interface and billing workflows. Function calling selects relevant files from both GitHub
+                        repositories, and answers include links pinned to the source commits. The integration supports
+                        follow-up questions, keeps the API key on the server and enforces persistent usage limits in
+                        PostgreSQL.</p>
                     <p class="project-tech"><strong>Tech:</strong> Java, Spring Boot, Spring Data JPA, PostgreSQL,
                         Flyway,
-                        REST API, Docker, Render, Neon, JavaScript</p>
+                        REST API, Docker, Render, Neon, JavaScript, OpenAI Responses API, function calling</p>
                 </details>
             </article>
 
