@@ -51,7 +51,8 @@
                     <li><img alt="OpenAI Responses API" height="22" src="../assets/icons/ui/braces.svg"
                              title="OpenAI Responses API" width="22"/></li>
                 </ul>
-                <p class="project-summary">A billing platform for customers, subscriptions and payments, with an AI
+                <p class="project-summary">A billing prototype for customers, subscriptions and payment intents, with an
+                    AI
                     assistant that explains the project.</p>
                 <p class="project-contribution"><strong>What I built:</strong> Built the backend APIs, subscription
                     rules and payment-intent workflows, and integrated Ask AI into the web interface.</p>
@@ -149,7 +150,9 @@
                         implements subscription lifecycle rules, payment-intent state transitions, input validation,
                         structured API error responses, and database constraints. Schema changes are managed with
                         Flyway,
-                        and the backend is deployed on Render with PostgreSQL hosted on Neon.</p>
+                        and the backend is deployed on Render with PostgreSQL hosted on Neon. Payment confirmation
+                        updates the internal payment-intent status; it does not charge a card through a payment
+                        provider.</p>
                     <p>Ask AI uses the OpenAI Responses API to answer questions about the Java backend, browser
                         interface and billing workflows. Function calling selects relevant files from both GitHub
                         repositories, and answers include links pinned to the source commits. The integration supports
@@ -203,9 +206,11 @@
                         reconciliation, with tests for duplicate and out-of-order events.
                     </li>
                     <li><strong>Restricted access:</strong> Only the renter can open the locker during the paid period;
-                        collection remains available after the rental becomes overdue.</li>
+                        collection remains available after the rental becomes overdue.
+                    </li>
                     <li><strong>Connected hardware:</strong> A self-hosted Eclipse Mosquitto broker carries opening
-                        commands and door readings over MQTT with TLS.</li>
+                        commands and door readings over MQTT with TLS.
+                    </li>
                     <li><strong>Confirmed collection:</strong> The locker becomes available only after the controller
                         verifies the door has closed and acknowledges completion over HTTPS.
                     </li>
@@ -374,7 +379,9 @@
                     </li>
                     <li><img alt="FastAPI" height="22" src="../assets/icons/brands/fastapi.svg" title="FastAPI"
                              width="22"/></li>
-                    <li><img alt="MQTT" height="22" src="../assets/icons/brands/mqtt.svg" title="MQTT" width="22"/></li>
+                    <li><img alt="MQTT over TLS with Eclipse Mosquitto" height="22"
+                             src="../assets/icons/brands/mqtt.svg" title="MQTT over TLS with Eclipse Mosquitto"
+                             width="22"/></li>
                     <li><img alt="SQLAlchemy" height="22" src="../assets/icons/brands/sqlalchemy.svg" title="SQLAlchemy"
                              width="22"/></li>
                     <li><img alt="MySQL" height="22" src="../assets/icons/brands/mysql.svg" title="MySQL" width="22"/>
@@ -390,17 +397,25 @@
                     <li><img alt="Nginx" height="22" src="../assets/icons/brands/nginx.svg" title="Nginx" width="22"/>
                     </li>
                 </ul>
-                <p class="project-summary">Tracks temperature readings from a prototype medication box in a web
-                    dashboard.</p>
+                <p class="project-summary">Monitors a prototype medication box through a signed-in dashboard,
+                    temperature history and adjustable device thresholds.</p>
                 <p class="project-contribution"><strong>My contribution:</strong> Developed the backend, database and
-                    tests in a team of three.</p>
+                    tests in a team of three, including authentication, access control, reading history and
+                    temperature configuration.</p>
                 <h3 class="project-decisions-heading">Key technical decisions</h3>
                 <ul class="project-decisions">
-                    <li><strong>Reliable ingestion:</strong> Acknowledge MQTT readings only after MySQL stores them.
+                    <li><strong>Reliable ingestion:</strong> Acknowledge MQTT readings only after MySQL stores them;
+                        retries preserve the original measurement without creating duplicates.
                     </li>
-                    <li><strong>Safe retries:</strong> Preserve the original measurement without creating duplicates.
+                    <li><strong>Scoped access:</strong> Server-side sessions restrict readings and settings to boxes
+                        assigned to the signed-in user.
                     </li>
-                    <li><strong>Failure coverage:</strong> pytest checks conflicting readings and failed writes.</li>
+                    <li><strong>Versioned thresholds:</strong> Send updated limits to the Raspberry Pi over MQTT,
+                        while keeping historical readings tied to their original temperature profiles.
+                    </li>
+                    <li><strong>Visible data gaps:</strong> Distinguish stale readings, lost contact and sensor faults
+                        from current temperature readings.
+                    </li>
                 </ul>
                 <div class="project-links">
                     <a href="https://tempsafe.app" rel="noreferrer" target="_blank">tempsafe.app</a>
@@ -409,27 +424,74 @@
                 </div>
                 <details class="project-details project-screenshots">
                     <summary>Screenshots</summary>
-                    <figure class="project-screenshot">
-                        <a aria-label="Open TempSafe screenshot at full size"
-                           href="../assets/images/projects/tempsafe/tempsafe-status.png" rel="noreferrer"
-                           target="_blank">
-                            <img
-                                alt="TempSafe current status showing a normal temperature reading of 21.5 degrees Celsius."
-                                decoding="async"
-                                height="360" loading="lazy" src="../assets/images/projects/tempsafe/tempsafe-status.png"
-                                width="762"/>
-                        </a>
-                        <figcaption>Current temperature status — development screenshot</figcaption>
-                    </figure>
+                    <p>Mobile interface examples from the 22 November usability review.</p>
+                    <div class="project-screenshot-gallery">
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open TempSafe mobile dashboard screenshot at full size"
+                               href="../assets/images/projects/tempsafe/tempsafe-dashboard.png?v=20261125-latest-mobile"
+                               rel="noreferrer" target="_blank">
+                                <img
+                                    alt="Mobile TempSafe dashboard with the current temperature, an alert notice and a graph of readings over the last hour."
+                                    decoding="async" height="1466" loading="lazy"
+                                    src="../assets/images/projects/tempsafe/tempsafe-dashboard.png?v=20261125-latest-mobile"
+                                    width="676"/>
+                            </a>
+                            <figcaption>1. Dashboard and recent readings</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open TempSafe mobile warming warning screenshot at full size"
+                               href="../assets/images/projects/tempsafe/tempsafe-warming-warning.png?v=20261125-latest-mobile"
+                               rel="noreferrer" target="_blank">
+                                <img
+                                    alt="Mobile TempSafe dashboard showing a warming warning, the outside temperature and an estimate of when the inside temperature may reach the warning threshold."
+                                    decoding="async" height="1466" loading="lazy"
+                                    src="../assets/images/projects/tempsafe/tempsafe-warming-warning.png?v=20261125-latest-mobile"
+                                    width="676"/>
+                            </a>
+                            <figcaption>2. Warming warning</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open TempSafe mobile history screenshot at full size"
+                               href="../assets/images/projects/tempsafe/tempsafe-history.png?v=20261125-latest-mobile"
+                               rel="noreferrer" target="_blank">
+                                <img
+                                    alt="Mobile TempSafe history with recorded temperatures, measurement times, status labels and a CSV download option."
+                                    decoding="async" height="1466" loading="lazy"
+                                    src="../assets/images/projects/tempsafe/tempsafe-history.png?v=20261125-latest-mobile"
+                                    width="676"/>
+                            </a>
+                            <figcaption>3. Reading history and CSV export</figcaption>
+                        </figure>
+                        <figure class="project-screenshot project-screenshot-mobile">
+                            <a aria-label="Open TempSafe mobile alerts screenshot at full size"
+                               href="../assets/images/projects/tempsafe/tempsafe-alerts.png?v=20261125-latest-mobile"
+                               rel="noreferrer" target="_blank">
+                                <img
+                                    alt="Mobile TempSafe Alerts screen showing a temperature event with a peak of 29.3 degrees Celsius, its duration and time interval."
+                                    decoding="async" height="1466" loading="lazy"
+                                    src="../assets/images/projects/tempsafe/tempsafe-alerts.png?v=20261125-latest-mobile"
+                                    width="676"/>
+                            </a>
+                            <figcaption>4. Temperature alert details</figcaption>
+                        </figure>
+                    </div>
                 </details>
                 <details class="project-details">
                     <summary>Implementation details</summary>
-                    <p>Developed the backend, database, and tests in a team of three. The service validates incoming
-                        readings and acknowledges them only after MySQL has stored them. Device retries preserve
-                        the original measurement without creating duplicates, with pytest coverage for conflicting
-                        readings and failed writes. The dashboard and API are hosted on AWS EC2 behind Nginx.</p>
-                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, MQTT, SQLAlchemy, MySQL,
-                        pytest, Docker, AWS EC2, Nginx</p>
+                    <p>I developed the FastAPI backend with async SQLAlchemy and MySQL. It stores readings from
+                        inside and outside sensors separately and acknowledges MQTT messages only after the database
+                        commit. Retried messages preserve the original measurement without creating duplicates.</p>
+                    <p>Authentication uses server-side sessions and checks access to each assigned box. Changing
+                        temperature limits creates a new profile, preserving the limits recorded with older readings.
+                        The backend sends the selected profile to the Raspberry Pi through retained MQTT messages,
+                        retrying publication after failures and reconnections.</p>
+                    <p>The history API supports date filtering and pagination for graphs, reading tables and alert
+                        history. The dashboard identifies stale readings and lost device contact; history marks
+                        sensor faults and gaps in the data. My pytest coverage includes session and box access,
+                        configuration changes, conflicting readings and failed writes. The dashboard and API run on
+                        AWS EC2 behind Nginx.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, MQTT over TLS, Eclipse Mosquitto,
+                        async SQLAlchemy, MySQL, pytest, Docker, AWS EC2, Nginx</p>
                 </details>
             </article>
 
@@ -461,8 +523,8 @@
                 </ul>
                 <p class="project-summary">Manages supermarket departments, products, stock, prices and images.</p>
                 <p class="project-contribution"><strong>My contribution:</strong> Built the product module
-                    (validation, JDBC CRUD and image upload/retrieval) and the multithreaded TCP server.
-                    Wrote tests for product persistence and client–server flows.</p>
+                    (validation, JDBC CRUD and image upload/retrieval), and added multithreading and routing to
+                    the team's TCP server. Wrote tests for product persistence and client–server flows.</p>
                 <h3 class="project-decisions-heading">Key technical decisions</h3>
                 <ul class="project-decisions">
                     <li><strong>Concurrent clients:</strong> A multithreaded server handles parallel connections.</li>
@@ -479,10 +541,11 @@
                     <p>I implemented the product model with sale and discount validation, its MySQL schema,
                         JDBC DAO, JSON conversion and client/server CRUD handlers. For product images, I added
                         upload and retrieval, keeping image BLOBs out of metadata-only queries.</p>
-                    <p>I built the socket server with an ExecutorService to handle concurrent clients, extracted
-                        shared client request helpers, and added server-side error logging. My tests cover product
-                        validation, persistence and image retrieval, plus client/server behaviour for invalid JSON,
-                        valid requests and disconnects.</p>
+                    <p>I extended the team's socket server with an ExecutorService for concurrent clients,
+                        product DAO wiring and request routing. I also extracted shared client request helpers
+                        and added server-side error logging. My tests cover product validation, persistence and
+                        image retrieval, plus client/server behaviour for invalid JSON, valid requests and
+                        disconnects.</p>
                     <p class="project-tech"><strong>Tech:</strong> Java 17, Maven, MySQL, JDBC, Jackson, TCP sockets,
                         ExecutorService, JUnit 5</p>
                 </details>
@@ -532,8 +595,8 @@
                     <li><strong>Offline assets:</strong> A service worker caches static assets for the PWA.</li>
                 </ul>
                 <div class="project-links">
-                    <a href="https://github.com/nikitsya/Google-Map-Website" rel="noreferrer" target="_blank">View on
-                        GitHub</a>
+                    <a href="https://github.com/nikitsya/World-Cup-2026-Mexico-Guide" rel="noreferrer"
+                       target="_blank">View on GitHub</a>
                 </div>
                 <details class="project-details project-screenshots">
                     <summary>Screenshots</summary>
@@ -552,11 +615,11 @@
                 </details>
                 <details class="project-details">
                     <summary>Implementation details</summary>
-                    <p>Integrated Google Maps, Places, and Directions APIs for stadium exploration, nearby place search,
-                        and
-                        route planning. Added live weather data, currency conversion, responsive layouts, and PWA
-                        support
-                        with a service worker for offline static assets.</p>
+                    <p>Integrated Google Maps, Places and Directions APIs for stadium exploration, nearby place
+                        search and route planning. Visitors can filter places by type and rating, add stops to a
+                        day plan and choose walking or driving directions. Added live weather and currency
+                        conversion, reusing fetched exchange rates for subsequent conversions. Responsive layouts
+                        and a service worker provide PWA support with cached static assets.</p>
                     <p class="project-tech"><strong>Tech:</strong> Vanilla JavaScript, ES Modules, HTML, CSS, Google
                         Maps
                         API, Google Places API, Google Directions API, Open-Meteo API, Frankfurter API, PWA</p>
