@@ -177,7 +177,8 @@
                     <li><img alt="Stripe Checkout" height="22"
                              src="../assets/icons/brands/stripe.svg?v=20261107-brand-colour"
                              title="Stripe Checkout" width="22"/></li>
-                    <li><img alt="PubNub" height="22" src="../assets/icons/ui/network.svg" title="PubNub"
+                    <li><img alt="MQTT over TLS with Eclipse Mosquitto" height="22"
+                             src="../assets/icons/brands/mqtt.svg" title="MQTT over TLS with Eclipse Mosquitto"
                              width="22"/></li>
                     <li><img alt="Raspberry Pi" height="22" src="../assets/icons/brands/raspberrypi.svg"
                              title="Raspberry Pi"
@@ -192,17 +193,21 @@
                     <li><img alt="Nginx" height="22" src="../assets/icons/brands/nginx.svg" title="Nginx" width="22"/>
                     </li>
                 </ul>
-                <p class="project-summary">A campus locker prototype for booking, test payments and physical
-                    unlocking.</p>
-                <p class="project-contribution"><strong>What I built:</strong> Built the reservation and payment flow,
-                    including webhook verification and payment-event tests.</p>
+                <p class="project-summary">A campus locker prototype with reservations, Stripe test payments and
+                    Raspberry Pi access control.</p>
+                <p class="project-contribution"><strong>What I built:</strong> Built the FastAPI rental backend,
+                    payment and overdue-billing flows, and Raspberry Pi integration over MQTT and HTTPS.</p>
                 <h3 class="project-decisions-heading">Key technical decisions</h3>
                 <ul class="project-decisions">
-                    <li><strong>Verified payments:</strong> Stripe Checkout in test mode; signed webhooks and
-                        duplicate-event tests.
+                    <li><strong>Verified payments:</strong> Stripe Checkout in test mode, signed webhooks and payment
+                        reconciliation, with tests for duplicate and out-of-order events.
                     </li>
-                    <li><strong>Restricted access:</strong> Only the renter can unlock during the paid period.</li>
-                    <li><strong>Connected hardware:</strong> PubNub carries commands and door events to a Raspberry Pi.
+                    <li><strong>Restricted access:</strong> Only the renter can open the locker during the paid period;
+                        collection remains available after the rental becomes overdue.</li>
+                    <li><strong>Connected hardware:</strong> A self-hosted Eclipse Mosquitto broker carries opening
+                        commands and door readings over MQTT with TLS.</li>
+                    <li><strong>Confirmed collection:</strong> The locker becomes available only after the controller
+                        verifies the door has closed and acknowledges completion over HTTPS.
                     </li>
                 </ul>
                 <div class="project-links">
@@ -339,12 +344,21 @@
                 </details>
                 <details class="project-details">
                     <summary>Implementation details</summary>
-                    <p>Built the reservation and payment flow with PostgreSQL, verified Stripe webhook signatures,
-                        and tested duplicate and out-of-order notifications. Unlocking is restricted to the renter
-                        during the paid period. PubNub carries opening commands and door events between the web
-                        application and the Raspberry Pi. The application is hosted on AWS EC2 behind Nginx.</p>
-                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, PostgreSQL, Stripe Checkout,
-                        PubNub, Raspberry Pi, unittest, Docker, AWS EC2, Nginx</p>
+                    <p>The FastAPI backend uses async SQLAlchemy and PostgreSQL, with row locks to prevent competing
+                        reservations. Rental prices and deadlines are calculated on the server. Stripe payments are
+                        verified through signed webhooks and reconciliation. Daily overdue charges run in test mode,
+                        with Checkout recovery for unpaid balances. Outstanding or unconfirmed extra-day payments
+                        pause new bookings while preserving existing paid access and collection.</p>
+                    <p>Locker 4 is the physical prototype; the other eight lockers are placeholders. Its Raspberry Pi
+                        controls a servo latch and reads a magnetic door sensor. Opening commands and telemetry use
+                        MQTT over TLS through Eclipse Mosquitto; heartbeats and collection acknowledgements use HTTPS.
+                        Commands expire and are dispatched at most once. Tests cover stale readings, duplicate
+                        commands, lost acknowledgements and the collection cycle.</p>
+                    <p>The application and MQTT broker run on AWS EC2, with Nginx serving HTTPS and PostgreSQL running
+                        in Docker.</p>
+                    <p class="project-tech"><strong>Tech:</strong> Python, FastAPI, Jinja2, async SQLAlchemy,
+                        PostgreSQL, Stripe Checkout, MQTT over TLS, Eclipse Mosquitto, Raspberry Pi, unittest,
+                        Docker, AWS EC2, Nginx</p>
                 </details>
             </article>
 
